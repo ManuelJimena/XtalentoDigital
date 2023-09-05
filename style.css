@@ -92,7 +92,7 @@ button:focus,
 input:focus,
 select:focus,
 textarea:focus{
-  outline: 2px solid #CD1401; 
+  outline: 2px solid #cd1401; 
 }
 .mouseNavigation *:focus,
 .mouseNavigation a:focus,
@@ -124,7 +124,7 @@ h4,
 h5,
 h6 {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    color: #CD1401;
+    color: #cd1401;
     cursor: default;
 }
 
@@ -152,7 +152,7 @@ a[href^="mailto"] {
 
 a:focus,
 a:hover {
-    color: #CD1401;
+    color: #cd1401;
 }
 
 a[target="_blank"] img {
@@ -219,7 +219,7 @@ iframe {
 
 .social-header li a {
     display: block;
-    border-left: 1px solid #CD1401;
+    border-left: 1px solid #cd1401;
     text-align: center;
     padding: 0 8px;
     width: 34px;
@@ -237,14 +237,14 @@ iframe {
 .social-header li.last {
     position: static;
     padding-left: 10px;
-    border-left: 1px solid #CD1401;
+    border-left: 1px solid #cd1401;
 }
 
 .social-header li.last a {
     font-size: 0.9em;
     text-transform: uppercase;
     text-decoration: none;
-    background: #cd1401 url(../img/ico-registrarse.png) no-repeat 95% 7px;
+    background: #cd1401 url(https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931808/Xtalentodigital/ico-registrarse_sqdyou.png) no-repeat 95% 7px;
     color: #fff;
     padding: 3px 32px 3px 10px;
     font-family: Coustard;
@@ -253,7 +253,7 @@ iframe {
 
 .social-header li.last a:hover,
 .social-header li.last a:focus {
-    background: #fff url(../img/ico-regis-rojo.png) no-repeat 95% center;
+    background: #fff url(https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931807/Xtalentodigital/ico-regis-rojo_yzcetq.png) no-repeat 95% center;
     color: #19242d;
 }
 
@@ -315,7 +315,7 @@ iframe {
     .social-header li.last {
         position: static;
         padding-left: 24px;
-        border-left: 1px solid #CD1401;
+        border-left: 1px solid #cd1401;
     }
 
     .social-header li.last a {
@@ -417,13 +417,13 @@ iframe {
     vertical-align: bottom;
     list-style: none;
     padding: 0;
-    background: transparent url(../img/ico-sep-menu-sup.jpg) no-repeat 0px center;
+    background: transparent url(https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931808/Xtalentodigital/ico-sep-menu-sup_ivgu9z.jpg) no-repeat 0px center;
     margin: 0;
     width: 100%;
 }
 
 #header #block-menu-menu-superior .menu li:last-child {
-    background: url(../img/ico-sep-menu-sup.jpg) no-repeat center left, url(../img/ico-sep-menu-sup.jpg) no-repeat center right;
+    background: url(https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931808/Xtalentodigital/ico-sep-menu-sup_ivgu9z.jpg) no-repeat center left, url(https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931808/Xtalentodigital/ico-sep-menu-sup_ivgu9z.jpg) no-repeat center right;
 }
 
 #header #block-menu-menu-superior .menu li a {
@@ -431,7 +431,7 @@ iframe {
     text-decoration: none;
     text-align: center;
     padding: 10px 15px;
-    color: #CD1401;
+    color: #cd1401;
     font-size: 1.1em;
     font-family: Coustard;
     border-bottom: 10px solid transparent;
@@ -457,7 +457,7 @@ iframe {
 }
 
 #header #block-menu-menu-superior .menu li.active-trail a:focus {
-    outline: 2px solid #CD1401;
+    outline: 2px solid #cd1401;
 }
 
 
@@ -516,37 +516,37 @@ iframe {
 }
 
 .background-header-que-es {
-    background: url('../img/cabeceras/header-que-es.jpg') no-repeat center center;
+    background: url('https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931826/Xtalentodigital/header-que-es_wqfobi.jpg') no-repeat center center;
     background-size: auto 100%;
 }
 
 .background-header-alumni {
-    background: url('../img/cabeceras/header-alumni.jpg') no-repeat center center;
+    background: url('https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931827/Xtalentodigital/header-alumni_imbnbi.jpg') no-repeat center center;
     background-size: auto 100%;
 }
 
 .background-header-becas {
-    background: url('../img/cabeceras/header-becas.jpg') no-repeat center center;
+    background: url('https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931827/Xtalentodigital/header-becas_etf0za.jpg') no-repeat center center;
     background-size: auto 100%;
 }
 
 .background-header-eventos {
-    background: url('../img/cabeceras/header-eventos.jpg') no-repeat center center;
+    background: url('https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931829/Xtalentodigital/header-eventos_sojcyv.jpg') no-repeat center center;
     background-size: auto 100%;
 }
 
 .background-header-formacion {
-    background: url('../img/cabeceras/header-formacion.jpg') no-repeat center center;
+    background: url('https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931830/Xtalentodigital/header-formacion_f5t7fg.jpg') no-repeat center center;
     background-size: auto 100%;
 }
 
 .background-header-colaboradores {
-    background: url('../img/cabeceras/header-colaboradores.jpg') no-repeat center center;
+    background: url('https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931828/Xtalentodigital/header-colaboradores_s4dai6.jpg') no-repeat center center;
     background-size: auto 100%;
 }
 
 .background-header-default {
-    background: url('../img/cabeceras/header-default.jpg') no-repeat center center;
+    background: url('https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931829/Xtalentodigital/header-default_ii4yta.jpg') no-repeat center center;
     background-size: auto 100%;
 }
 
@@ -587,21 +587,21 @@ iframe {
     text-decoration: none;
     text-transform: lowercase;
     font-size: 1.625em;
-    border: 1px dashed #CD1401;
-    background: transparent url(../img/ico-flecha.png) no-repeat 95% center;
+    border: 1px dashed #cd1401;
+    background: transparent url(https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693944664/Xtalentodigital/ico-flecha_js1vca.png) no-repeat 95% center;
 }
 
 .content .node-quiz .quiz-start-link:hover,
 .content .node-quiz .quiz-start-link:focus {
     border: 1px solid #fff;
-    background-image: url(../img/ico-flecha-blanco.png);
+    background-image: url(https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693944665/Xtalentodigital/ico-flecha-blanco_cy73l0.png);
 }
 
 /*Paginas test*/
 .page-node-take .title {
     margin: 0.7em 0 0 0;
     text-align: center;
-    /*color: #CD1401;*/
+    /*color: #cd1401;*/
 }
 
 .page-node-take .title:after {
@@ -674,7 +674,7 @@ iframe {
 }
 
 .field-name-body span {
-    color: #CD1401;
+    color: #cd1401;
 }
 
 /*#edit-question-13 h2,#edit-question-14 h2, #edit-question-15 h2, #edit-question-16 h2, #edit-question-17 h2, #edit-question-18 h2{display:none;visibility:hidden}
@@ -709,7 +709,7 @@ div[id*="edit-question-"] h2 {
 }
 
 .keyboardNavigation .preguntas input[type="radio"]:focus+label {
-    outline: 2px solid #CD1401;
+    outline: 2px solid #cd1401;
 }
 
 .mouseNavigation .preguntas input[type="radio"]:focus+label {
@@ -731,7 +731,7 @@ div[id*="edit-question-"] h2 {
 
 .preguntas .bor-bottom {
     height: .75em;
-    background: #CD1401;
+    background: #cd1401;
     width: 37%;
     margin: 0 auto;
 }
@@ -926,7 +926,7 @@ div[id*="edit-question-"] h2 {
 .preguntas label:active,
 .preguntas input:hover+label,
 .preguntas input:checked+label {
-    color: #CD1401;
+    color: #cd1401;
     background-color: #fff;
 }
 
@@ -1060,7 +1060,7 @@ div[id*="edit-question-"] h2 {
 }
 
 #edit-navigation #quiz-progress .barra .progreso {
-    background-color: #CD1401;
+    background-color: #cd1401;
     height: 55%;
     position: absolute;
     line-height: inherit;
@@ -1109,7 +1109,7 @@ div[id*="edit-question-"] h2 {
     text-decoration: none;
     text-transform: lowercase;
     font-size: 0.784em;
-    border: 1px dashed #CD1401;
+    border: 1px dashed #cd1401;
     background: transparent url(../img/ico-flecha.png) no-repeat 85% center;
 }
 
@@ -1169,7 +1169,7 @@ div[id*="edit-question-"] h2 {
 }
 
 #quiz-summary h2 span {
-    color: #CD1401;
+    color: #cd1401;
 }
 
 #quiz-summary .border-dot {
@@ -1194,7 +1194,7 @@ div[id*="edit-question-"] h2 {
 }
 
 #quiz-summary .left-par p strong {
-    color: #CD1401;
+    color: #cd1401;
     font-size: 1.1em;
 }
 
@@ -1207,7 +1207,7 @@ div[id*="edit-question-"] h2 {
 
 #quiz-summary ul {
     display: inline-block;
-    border-left: 1px solid #CD1401;
+    border-left: 1px solid #cd1401;
     height: 22px;
     margin-left: 2.5em
 }
@@ -1215,7 +1215,7 @@ div[id*="edit-question-"] h2 {
 #quiz-summary ul li {
     list-style: none;
     display: inline-block;
-    border-right: 1px solid #CD1401;
+    border-right: 1px solid #cd1401;
 }
 
 #quiz-summary ul li a {
@@ -1271,7 +1271,7 @@ p.boton a:focus {
 #footer {
     padding-top: 25px;
     padding-bottom: 25px;
-    border-top: 3px solid #CD1401;
+    border-top: 3px solid #cd1401;
     margin-top: 50px;
 
 }
@@ -1344,7 +1344,7 @@ body.page-cursos-todos #footer {
     left: 0;
     top: 6px;
     width: 7px;
-    border-bottom: 10px solid #CD1401;
+    border-bottom: 10px solid #cd1401;
 }
 
 #block-menu-menu-footer ul.menu li a:hover:after,
@@ -1940,9 +1940,9 @@ h3.h3-title {
 
 .form-colabora .form-actions .form-submit:hover,
 .pane-content .form-actions .form-submit:focus {
-    background: #CD1401 !important;
+    background: #cd1401 !important;
     color: #fff !important;
-    border: 1px solid #CD1401 !important;
+    border: 1px solid #cd1401 !important;
 }
 
 /* fin colaboradores form*/
@@ -2047,9 +2047,9 @@ h3.h3-title {
 
 .form-suscrip .form-actions .form-submit:hover,
 .pane-content .form-actions .form-submit:focus {
-    background: #CD1401 !important;
+    background: #cd1401 !important;
     color: #fff !important;
-    border: 1px solid #CD1401 !important;
+    border: 1px solid #cd1401 !important;
 }
 
 /*FORM suscripcion*/
@@ -2127,7 +2127,7 @@ h3.h3-title {
 }
 
 .formacion_home ul li .curso-block-item .curso-block-name a {
-    color: #CD1401;
+    color: #cd1401;
     text-decoration: none;
 }
 
@@ -2182,7 +2182,7 @@ h3.h3-title {
 }
 
 .formacion_home .presentacion {
-    background: #CD1401;
+    background: #cd1401;
     box-sizing: border-box;
 }
 
@@ -2230,8 +2230,8 @@ h3.h3-title {
 
 .formacion_home .presentacion a:hover,
 .formacion_home .presentacion a:focus {
-    outline: 1px solid #CD1401;
-    color: #CD1401;
+    outline: 1px solid #cd1401;
+    color: #cd1401;
     background: #fff;
 }
 
@@ -2448,7 +2448,7 @@ h3.h3-title {
     font-family: Coustard;
     font-size: 1.6rem;
     font-weight: 400;
-    color: #CD1401;
+    color: #cd1401;
     background: #f3f3f3;
     transition: all 1s ease 0s;
     border: 1px solid #f3f3f3;
@@ -2480,7 +2480,7 @@ h3.h3-title {
 .alumnos_home .alumno-block-all a:hover,
 .alumnos_home .alumno-block-all a:focus {
     color: #fff;
-    background: #CD1401;
+    background: #cd1401;
 }
 
 .alumnos_home .alumno-block-all a:hover::after,
@@ -2546,7 +2546,7 @@ h3.h3-title {
 }
 
 #block-menu-menu-footer .menu a {
-    color: #CD1401;
+    color: #cd1401;
 }
 
 #block-menu-menu-footer .menu a:hover,
@@ -2559,18 +2559,6 @@ h3.h3-title {
     #block-menu-menu-footer .menu {
         padding-bottom: 0;
     }
-}
-
-@media all and (min-width: 75em) {
-    /* #block-menu-menu-footer{
-        width: 50%;
-        padding-top: 0;
-    }
-    #block-menu-menu-footer + div{
-        float: left;
-        width: 50%;
-        text-align: right;
-    } */
 }
 
 .breadcrumb {
@@ -2602,23 +2590,14 @@ h3.h3-title {
     }
 }
 
-/* .breadcrumb li:before{
-    content:"";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 17px;
-    width: 1px;
-    border-left: 1px solid #BCBDC0;
-} */
 .breadcrumb li:before {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
-    background: #CD1401;
+    background: #cd1401;
     border-radius: 100%;
-    border: 1px solid #CD1401;
+    border: 1px solid #cd1401;
 
 }
 
@@ -2629,9 +2608,9 @@ h3.h3-title {
     top: 4px;
     height: 8px;
     width: 8px;
-    background: #CD1401;
+    background: #cd1401;
     border-radius: 100%;
-    border: 1px solid #CD1401;
+    border: 1px solid #cd1401;
 }
 
 
@@ -2643,9 +2622,9 @@ h3.h3-title {
     top: 4px;
     height: 8px;
     width: 8px;
-    background: #CD1401;
+    background: #cd1401;
     border-radius: 100%;
-    border: 1px solid #CD1401;
+    border: 1px solid #cd1401;
 
 }
 
@@ -2700,13 +2679,13 @@ h3.h3-title {
     bottom: 0;
     left: 0;
     width: 74px;
-    border-bottom: 11px solid #CD1401;
+    border-bottom: 11px solid #cd1401;
 }
 
 .title2 {
     font-family: Coustard, arial;
     font-size: 1.235em;
-    color: #CD1401;
+    color: #cd1401;
     font-weight: normal;
     padding-bottom: 19px;
     padding-top: 45px;
@@ -2736,9 +2715,9 @@ h3.h3-title {
     top: 7px;
     height: 8px;
     width: 8px;
-    background: #CD1401;
+    background: #cd1401;
     border-radius: 100%;
-    border: 1px solid #CD1401;
+    border: 1px solid #cd1401;
 }
 
 .content-page-basic p {
@@ -2754,7 +2733,7 @@ span.destac,
     max-width: 100%;
     margin: 0 auto;
     margin-right: 0;
-    border-left: 1px solid #CD1401;
+    border-left: 1px solid #cd1401;
     padding-left: 40px;
     line-height: 1;
     font-weight: bold;
@@ -2764,7 +2743,7 @@ span.destac,
 
 .destac-important {
     display: block;
-    color: #CD1401;
+    color: #cd1401;
 }
 
 .destac_img,
@@ -2790,7 +2769,7 @@ span.destac,
 }
 
 .destac_img--noimg .destac_img_text {
-    border-top: 1px solid #CD1401;
+    border-top: 1px solid #cd1401;
 }
 
 .destac_img img {
@@ -2806,7 +2785,7 @@ span.destac,
     display: block;
     text-align: left;
     padding-top: 15px;
-    border-top: 1px solid #CD1401;
+    border-top: 1px solid #cd1401;
 }
 
 .destac_img_text .btn {
@@ -2881,7 +2860,7 @@ ul.destac li strong {
     .destac_img img {
         display: inline-block;
         padding-right: 38px;
-        border-right: 1px solid #CD1401;
+        border-right: 1px solid #cd1401;
     }
 
     .destac_img_text {
@@ -2902,8 +2881,8 @@ ul.destac li strong {
     }
 
     .destac_img--noimg .destac_img_text {
-        border-top: 0px solid #CD1401;
-        border-left: 1px solid #CD1401;
+        border-top: 0px solid #cd1401;
+        border-left: 1px solid #cd1401;
     }
 }
 
@@ -2923,9 +2902,9 @@ ul.destac li strong {
     top: 7px;
     height: 8px;
     width: 8px;
-    background: #CD1401;
+    background: #cd1401;
     border-radius: 100%;
-    border: 1px solid #CD1401;
+    border: 1px solid #cd1401;
 }
 
 .content-page-basic .item-bullet-element-list {
@@ -2948,7 +2927,7 @@ ul.destac li strong {
 }
 
 .item-bullet-element-list-item-text {
-    color: #CD1401;
+    color: #cd1401;
     font-weight: bold;
 }
 
@@ -2965,10 +2944,6 @@ ul.destac li strong {
         top: 63px;
     }
 
-    #header.header--fixed {
-        /*padding-top: 12px;*/
-    }
-
     .header--fixed {
         position: fixed !important;
         z-index: 101;
@@ -2980,49 +2955,8 @@ ul.destac li strong {
         right: 0;
     }
 
-    .header--fixed .social-header {
-        /*display: none;*/
-    }
-
-    .header--fixed .site-logo img {
-        /*max-width: 205px;*/
-    }
 }
 
-
-.menuresponsive {}
-
-.menuresponsive .mean-bar {
-    float: none;
-    clear: both;
-    padding-top: 0;
-    position: static;
-}
-
-.menuresponsive .mean-bar .meanmenu-reveal {
-    position: absolute;
-    top: 19px;
-    right: 6px !important;
-    font-size: 0px !important;
-}
-
-.menuresponsive .mean-nav ul {
-    padding-top: 5px;
-}
-
-.menuresponsive .mean-nav ul li {
-    margin: 0;
-    padding: 0;
-}
-
-.menuresponsive .mean-nav ul li a {
-    border-top: 1px solid #CD1401;
-}
-
-.menuresponsive .mean-nav ul li a.active-trail {
-    background: #CD1401;
-    color: #ffffff;
-}
 
 /*FORM LOGIN*/
 #user-login .form-item {
@@ -3067,9 +3001,9 @@ ul.destac li strong {
 
 #user-login .form-actions input:hover,
 #user-login .form-actions input:focus {
-    background: #CD1401 !important;
+    background: #cd1401 !important;
     color: #fff !important;
-    border: 1px solid #CD1401 !important;
+    border: 1px solid #cd1401 !important;
 }
 
 /*FIN FORM LOGIN*/
@@ -3203,9 +3137,9 @@ ul.destac li strong {
     top: 7px;
     height: 8px;
     width: 8px;
-    background: #CD1401;
+    background: #cd1401;
     border-radius: 100%;
-    border: 1px solid #CD1401;
+    border: 1px solid #cd1401;
 }
 
 .view-colaboradores .breadcrumb {
@@ -3266,9 +3200,9 @@ ul.destac li strong {
     top: 15px;
     height: 8px;
     width: 8px;
-    background: #CD1401;
+    background: #cd1401;
     border-radius: 100%;
-    border: 1px solid #CD1401;
+    border: 1px solid #cd1401;
 }
 
 .listado_eventos ul>li h3 a {
@@ -3304,7 +3238,7 @@ ul.destac li strong {
     font-family: Coustard;
     font-size: 1.6rem;
     font-weight: 400;
-    color: #CD1401;
+    color: #cd1401;
     padding-left: 33px;
     line-height: 1.2;
     cursor: pointer;
@@ -3317,7 +3251,7 @@ ul.destac li strong {
 
 .listado-selector-cursos li:hover,
 .listado-selector-cursos li:focus {
-    background: #CD1401;
+    background: #cd1401;
 }
 
 .listado-selector-cursos li:hover h2,
@@ -3344,7 +3278,7 @@ ul.destac li strong {
     font-size: 1.6rem;
     margin-bottom: 5px;
     display: block;
-    color: #CD1401;
+    color: #cd1401;
     padding-right: 25px;
 }
 
@@ -3521,9 +3455,9 @@ ul.destac li strong {
 
 .view-id-cursos .view-filters input:hover,
 .view-id-cursos .view-filters input:focus {
-    background: #CD1401 !important;
+    background: #cd1401 !important;
     color: #fff !important;
-    border: 1px solid #CD1401 !important;
+    border: 1px solid #cd1401 !important;
 }
 
 .view-id-cursos .item-list ul {
@@ -3638,9 +3572,9 @@ ul.destac li strong {
 
 .btn-inscribite:hover,
 .btn-inscribite:focus {
-    background: #CD1401 !important;
+    background: #cd1401 !important;
     color: #fff !important;
-    border: 1px solid #CD1401 !important;
+    border: 1px solid #cd1401 !important;
 }
 
 .btn-solicita {
@@ -3872,9 +3806,9 @@ ul.destac li strong {
 .form-inscrip .form-actions .form-submit:focus,
 .form-cursos-interes .form-actions .form-submit:hover,
 .form-cursos-interes .form-actions .form-submit:focus {
-    background: #CD1401 !important;
+    background: #cd1401 !important;
     color: #fff !important;
-    border: 1px solid #CD1401 !important;
+    border: 1px solid #cd1401 !important;
 }
 
 /*FIN FORM INSCRIPCION*/
@@ -3997,9 +3931,9 @@ ul.destac li strong {
 
 .form-interes .form-actions .form-submit:hover,
 .pane-content .form-actions .form-submit:focus {
-    background: #CD1401 !important;
+    background: #cd1401 !important;
     color: #fff !important;
-    border: 1px solid #CD1401 !important;
+    border: 1px solid #cd1401 !important;
 }
 
 /*FIN FORM INTERESES*/
@@ -4118,9 +4052,9 @@ ul.destac li strong {
 
 .form-contact .form-actions .form-submit:hover,
 .form-contact .form-actions .form-submit:focus {
-    background: #CD1401 !important;
+    background: #cd1401 !important;
     color: #fff !important;
-    border: 1px solid #CD1401 !important;
+    border: 1px solid #cd1401 !important;
 }
 
 /*FIN FORM CONTACTO*/
@@ -4501,7 +4435,7 @@ ul.destac li strong {
 
 .alumno-block-perfil {
     font-weight: bold;
-    color: #CD1401;
+    color: #cd1401;
 }
 
 .alumno-block-all {
@@ -4513,7 +4447,7 @@ ul.destac li strong {
     font-weight: 700;
     padding: 6px 0;
     position: relative;
-    background: #CD1401;
+    background: #cd1401;
     color: #fff;
     margin-top: 55px;
     display: inline-block;
@@ -4552,9 +4486,9 @@ ul.destac li strong {
 
 .alumno-block-all a:hover,
 .alumno-block-all a:focus {
-    color: #CD1401;
+    color: #cd1401;
     background: #fff;
-    border: 1px solid #CD1401;
+    border: 1px solid #cd1401;
 }
 
 /*.alumno-block-all a:after {
@@ -4563,7 +4497,7 @@ ul.destac li strong {
     left: 0;
     top: 6px;
     width: 7px;
-    border-bottom: 10px solid #CD1401;
+    border-bottom: 10px solid #cd1401;
 }*/
 
 .alumno-detalle-img {
@@ -4713,9 +4647,9 @@ ul.destac li strong {
 
 .listado_cursos .views-field-field-alumnos ul>li.node-readmore a:hover,
 .listado_cursos .views-field-field-alumnos ul>li.node-readmore a:focus {
-    background: #CD1401 !important;
+    background: #cd1401 !important;
     color: #fff !important;
-    border: 1px solid #CD1401 !important;
+    border: 1px solid #cd1401 !important;
 }
 
 /* fin PAGINA ALUMNOS */
@@ -4726,7 +4660,7 @@ ul.destac li strong {
 }
 
 .form-item .form-required {
-    color: #CD1401;
+    color: #cd1401;
 }
 
 .form-item>label {
@@ -4746,7 +4680,7 @@ ul.destac li strong {
 .form-item>select,
 .form-item>textarea {
     background-color: #fff;
-    border: 1px solid #CD1401;
+    border: 1px solid #cd1401;
     height: 25px;
     /*width: 100%;*/
     padding: 2px;
@@ -4761,9 +4695,9 @@ ul.destac li strong {
 .form-item>input:focus,
 .form-item>select:focus,
 .form-item textarea:focus {
-    background: #CD1401;
+    background: #cd1401;
     color: #fff;
-    border: 1px solid #CD1401;
+    border: 1px solid #cd1401;
 }
 
 .webform-component-textarea .grippie {
@@ -4772,7 +4706,7 @@ ul.destac li strong {
 
 
 .pane-content .form-actions .form-submit {
-    background: #CD1401;
+    background: #cd1401;
     border: medium none;
     color: #fff;
     font-weight: bold;
@@ -4785,8 +4719,8 @@ ul.destac li strong {
 .pane-content .form-actions .form-submit:hover,
 .pane-content .form-actions .form-submit:focus {
     background: #fff;
-    color: #CD1401;
-    border: 1px solid #CD1401;
+    color: #cd1401;
+    border: 1px solid #cd1401;
 }
 
 .pane-content .form-actions {
@@ -4814,7 +4748,7 @@ ul.destac li strong {
 .webform-component--detalla-el-tipo-de-colaboracion-que-le-gustaria-establecer-a-tu-empresa .form-textarea-wrapper {
     width: 70%;
     background-color: #fff;
-    /*border: 1px solid #CD1401;*/
+    /*border: 1px solid #cd1401;*/
     padding: 2px;
     transition: background-color 1s ease 0s;
 }
@@ -4865,7 +4799,7 @@ h3.views-label {
 }
 
 .detalle_cursos h2.views-label {
-    color: #CD1401;
+    color: #cd1401;
     font-size: 1.17em;
     margin: 10px 0 0 0;
 }
@@ -4922,7 +4856,7 @@ h3.views-label {
 }
 
 .becas_home h3:hover span:last-child::after {
-    color: #CD1401;
+    color: #cd1401;
 }
 
 .imagen-banner-homeBecas {
@@ -4998,7 +4932,7 @@ h3.views-label {
 }
 
 .becas_home ul li .curso-block-item .curso-block-name a {
-    color: #CD1401;
+    color: #cd1401;
     text-decoration: none;
 }
 
@@ -5048,7 +4982,7 @@ h3.views-label {
 }
 
 .becas_home .presentacion {
-    background: #CD1401;
+    background: #cd1401;
     box-sizing: border-box;
 }
 
@@ -5061,7 +4995,7 @@ h3.views-label {
     font-family: Coustard;
     font-size: 1.6rem;
     font-weight: 400;
-    color: #CD1401;
+    color: #cd1401;
     background: #fff;
     text-decoration: none;
 }
@@ -5069,15 +5003,15 @@ h3.views-label {
 .becas_home .becas-block-all a:hover,
 .becas_home .becas-block-all a:focus {
     color: #fff;
-    background: #CD1401;
+    background: #cd1401;
     transition: all 1s ease 0s;
 }
 
 .becas-block-all a:hover,
 .becas-block-all a:focus {
-    color: #CD1401;
+    color: #cd1401;
     background: #fff;
-    border: 1px solid #CD1401;
+    border: 1px solid #cd1401;
     transition: all 1s ease 0s;
 }
 
@@ -5168,8 +5102,8 @@ h3.views-label {
 
 .becas_home .presentacion a:hover,
 .becas_home .presentacion a:focus {
-    outline: 1px solid #CD1401;
-    color: #CD1401;
+    outline: 1px solid #cd1401;
+    color: #cd1401;
     background: #fff;
 }
 
@@ -5413,7 +5347,7 @@ li.logo-grupo-social {
 
 .eventos_home ul li p {
     list-style: none;
-    border-left: 5px solid #CD1401;
+    border-left: 5px solid #cd1401;
     padding: 1em;
     margin-bottom: 1em;
     width: 56%;
@@ -5467,12 +5401,12 @@ li.logo-grupo-social {
 .eventos_home ul li .fecha_evento_dia span {
     font-size: 2.3rem;
     font-weight: 400;
-    color: #CD1401;
+    color: #cd1401;
     font-family: Coustard;
 }
 
 .eventos_home .presentacion {
-    background: #CD1401;
+    background: #cd1401;
     box-sizing: border-box;
 }
 
@@ -5480,7 +5414,7 @@ li.logo-grupo-social {
     font-family: Coustard;
     font-size: 1.25rem;
     font-weight: 400;
-    color: #CD1401;
+    color: #cd1401;
     background: #fff;
     float: right;
 }
@@ -5548,8 +5482,8 @@ li.logo-grupo-social {
 
 .eventos_home .presentacion a:hover,
 .eventos_home .presentacion a:focus {
-    outline: 1px solid #CD1401;
-    color: #CD1401;
+    outline: 1px solid #cd1401;
+    color: #cd1401;
     background: #fff;
 }
 
@@ -5777,7 +5711,7 @@ li.logo-grupo-social {
 
 
 .cursos-mas-block-banner {
-    background-color: #CD1401;
+    background-color: #cd1401;
 }
 
 .front .cursos-mas-block-banner {
@@ -5847,7 +5781,7 @@ li.logo-grupo-social {
     font-family: Coustard;
     font-size: 1.875rem;
     font-weight: 400;
-    color: #CD1401;
+    color: #cd1401;
     text-decoration: none;
     padding: 6px 20px;
 }
@@ -5873,9 +5807,9 @@ li.logo-grupo-social {
 .cursos-all-block-boton a:hover,
 .cursos-all-block-boton a:focus {
     color: #fff;
-    background: #CD1401;
+    background: #cd1401;
     transition: all 1s ease 0s;
-    border: 1px solid #CD1401;
+    border: 1px solid #cd1401;
 }
 
 .colaboradores-block-banner a:hover::after,
@@ -6216,7 +6150,7 @@ ul.list-style-cuadro li:before {
     border: solid 1px #000;
     text-align: center;
     padding: 15px 0px 0px 0px;
-    background: #CD1401;
+    background: #cd1401;
     color: white
 }
 
@@ -6226,7 +6160,7 @@ ul.list-style-cuadro li:before {
 }
 
 .tblprivacidad td.td-fondo {
-    background: #CD1401;
+    background: #cd1401;
     color: white;
 }
 
@@ -6242,7 +6176,7 @@ ul.list-style-cuadro li:before {
     border: solid 1px #000;
     text-align: center;
     padding: 15px 0px 0px 0px;
-    background: #CD1401;
+    background: #cd1401;
     color: white
 }
 
@@ -6280,7 +6214,7 @@ body.page-cursos-editor #edit-cancel {
     font-family: Coustard;
     font-size: 1.2rem;
     font-weight: 400;
-    color: #CD1401;
+    color: #cd1401;
     text-decoration: none;
     padding: 4px 10px;
     background-color: #d8d8d8;
@@ -6752,7 +6686,7 @@ span.comment-display-single-temas-detalle ul li {
     content: "";
     bottom: 0;
     left: 0;
-    border-bottom: 2px solid #CD1401;
+    border-bottom: 2px solid #cd1401;
 }
 
 .container-podcast-post-detalle span a {
@@ -6894,7 +6828,7 @@ fieldset#edit-comment-body-und-0-format {
 .title-post-detalle::after {
     content: "";
     width: 72px;
-    border-bottom: 11px solid #CD1401;
+    border-bottom: 11px solid #cd1401;
     display: block;
 }
 
@@ -7421,7 +7355,7 @@ h2.h3.text-uppercase.text-body.taxo-post-temas.Empleo {
     font-family: Coustard;
     font-size: 1.6rem;
     font-weight: 400;
-    color: #CD1401;
+    color: #cd1401;
     background: #ffffff;
     transition: all 1s ease 0s;
     border: 1px solid #ffffff;
@@ -7452,8 +7386,8 @@ h2.h3.text-uppercase.text-body.taxo-post-temas.Empleo {
 .pane-ultimos-post .alumno-block-all a:hover,
 .pane-ultimos-post.alumno-block-all a:focus {
     color: #fff;
-    background: #CD1401;
-    border: 1px solid #CD1401;
+    background: #cd1401;
+    border: 1px solid #cd1401;
 }
 
 /*Listado filtrado*/
@@ -7663,7 +7597,7 @@ div#edit-field-tema-tid-wrapper div div div div div .active {
     font-family: Coustard;
     font-size: 1.6rem;
     font-weight: 400;
-    color: #CD1401;
+    color: #cd1401;
     background: #ffffff;
     transition: all 1s ease 0s;
     border: 1px solid #ffffff;
@@ -7687,8 +7621,8 @@ div#edit-field-tema-tid-wrapper div div div div div .active {
 .pane-ultimos-post .alumno-block-all-left a:hover,
 .pane-ultimos-post.alumno-block-all-left a:focus {
     color: #fff;
-    background: #CD1401;
-    border: 1px solid #CD1401;
+    background: #cd1401;
+    border: 1px solid #cd1401;
 }
 
 .pane-ultimos-post .alumno-block-all-left a::after {
@@ -7707,7 +7641,7 @@ div#edit-field-tema-tid-wrapper div div div div div .active {
     font-family: Coustard;
     font-size: 1.6rem;
     font-weight: 400;
-    color: #CD1401;
+    color: #cd1401;
     background: #f3f3f3;
     transition: all 1s ease 0s;
     border: 1px solid #f3f3f3;
@@ -7743,8 +7677,8 @@ div#edit-field-tema-tid-wrapper div div div div div .active {
 .alumnos_home .alumno-block-all-grey a:hover,
 .alumnos_home.alumno-block-all-grey a:focus {
     color: #fff;
-    background: #CD1401;
-    border: 1px solid #CD1401;
+    background: #cd1401;
+    border: 1px solid #cd1401;
 }
 
 .alumnos_home .alumno-block-all-grey a::after {
@@ -7776,7 +7710,7 @@ div#edit-field-tema-tid-wrapper div div div div div .active {
     font-family: Coustard;
     font-size: 1.6rem;
     font-weight: 400;
-    color: #CD1401;
+    color: #cd1401;
     background: #ffffff;
     transition: all 1s ease 0s;
     border: 1px solid #ffffff;
@@ -7808,8 +7742,8 @@ div#edit-field-tema-tid-wrapper div div div div div .active {
 .view-id-colaboradores.view-display-id-block_12 .alumno-block-all-detalle a:hover,
 .view-id-colaboradores.view-display-id-block_12.alumno-block-all-detalle a:focus {
     color: #fff;
-    background: #CD1401;
-    border: 1px solid #CD1401;
+    background: #cd1401;
+    border: 1px solid #cd1401;
 }
 
 .view-id-colaboradores.view-display-id-block_12 .alumno-block-all-detalle a::after {
@@ -7832,9 +7766,9 @@ div#edit-field-tema-tid-wrapper div div div div div .active {
     top: 4px !important;
     height: 8px !important;
     width: 8px !important;
-    background: #CD1401;
+    background: #cd1401;
     border-radius: 100%;
-    border: 1px solid #CD1401;
+    border: 1px solid #cd1401;
 }
 
 a.boton-contra-colabo {
@@ -7842,7 +7776,7 @@ a.boton-contra-colabo {
 }
 
 a.boton-contra-colabo:hover {
-    color: #CD1401;
+    color: #cd1401;
 }
 
 /*Ocultamos h1 en los nodos tipo posts*/
@@ -8147,9 +8081,9 @@ input#edit-submit-selector-temas--9:hover,
 input#edit-submit-selector-temas--9:focus,
 input#edit-submit-selector-temas--10:hover,
 input#edit-submit-selector-temas--10:focus {
-    background: #CD1401 !important;
+    background: #cd1401 !important;
     color: #fff !important;
-    border: 1px solid #CD1401 !important;
+    border: 1px solid #cd1401 !important;
 }
 
 @media all and (max-width: 1024px) {

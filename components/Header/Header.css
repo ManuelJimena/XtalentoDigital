@@ -1,0 +1,31 @@
+.menuresponsive .mean-bar {
+    float: none;
+    clear: both;
+    padding-top: 0;
+    position: static;
+}
+
+.menuresponsive .mean-bar .meanmenu-reveal {
+    position: absolute;
+    top: 19px;
+    right: 6px !important;
+    font-size: 0px !important;
+}
+
+.menuresponsive .mean-nav ul {
+    padding-top: 5px;
+}
+
+.menuresponsive .mean-nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.menuresponsive .mean-nav ul li a {
+    border-top: 1px solid #CD1401;
+}
+
+.menuresponsive .mean-nav ul li a.active-trail {
+    background: #CD1401;
+    color: #ffffff;
+}
