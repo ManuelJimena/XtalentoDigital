@@ -1,6 +1,6 @@
-import "./Header.css";
-export const Header = () => `
-<div id="skip-link">
+import "./Navbar.css";
+export const Navbar = () => `
+<nav id="skip-link">
 <div id="page-wrapper">
   <div id="page">
     <div id="header">
@@ -9,7 +9,8 @@ export const Header = () => `
           <div class="site-logo">
             <h1 role="banner" class="site-header__banner">
               <a href="index.html" title="Inicio" rel="home" id="logo">
-                <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931765/Xtalentodigital/logo_rumexl.png" alt="Inicio" />
+                <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931765/Xtalentodigital/logo_rumexl.png" alt="Inicio" /><span class="element-invisible">Academia digital Fundación ONCE</span>
+                </a>
             </h1>
           </div>
           <div class="menuresponsive">
@@ -57,5 +58,5 @@ export const Header = () => `
     </div>
   </div>
 </div>
-</div>
+</nav>
 `;

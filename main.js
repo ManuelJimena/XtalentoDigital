@@ -1,9 +1,12 @@
 import "./style.css";
-import { Header } from "./components/Header/Header";
+import { Navbar } from "./components/Navbar/Navbar";
+import { Footer } from "./components/Footer/Footer";
 import { router, addLinkListeners } from './router/router';
 
 const header = document.querySelector("header");
-header.innerHTML = Header();
+header.innerHTML = Navbar();
+const footer = document.querySelector("footer");
+footer.innerHTML = Footer();
 
 router();
 addLinkListeners();
