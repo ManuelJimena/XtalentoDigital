@@ -22,10 +22,10 @@
 }
 
 .menuresponsive .mean-nav ul li a {
-    border-top: 1px solid #CD1401;
+    border-top: 1px solid var(--red-color);
 }
 
 .menuresponsive .mean-nav ul li a.active-trail {
-    background: #CD1401;
+    background: var(--red-color);
     color: #ffffff;
 }
