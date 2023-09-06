@@ -1,7 +1,10 @@
 import {Home} from "../pages/Home/Home";
-import {About} from "../pages/About/About";
-import {Skills} from "../pages/Skills/Skills";
-import {Contact} from "../pages/Contact/Contact";
+import {Xtd} from "../pages/Xtd/Xtd";
+import {Cursos} from "../pages/Cursos/Cursos";
+import {Becas} from "../pages/Becas/Becas";
+import {Blog} from "../pages/Blog/Blog";
+import {Alumni} from "../pages/Alumni/Alumni";
+import {Colaboradores} from "../pages/Colaboradores/Colaboradores";
 import NotFound from "../pages/NotFound/NotFound";
 
 const routes = [
@@ -10,17 +13,29 @@ const routes = [
       component: Home,
     },
     {
-      path: "/about",
-      component: About,
+      path: "/xtd",
+      component: Xtd,
     },
     {
-      path: "/skills",
-      component: Skills,
-    },    
+      path: "/cursos",
+      component: Cursos,
+    },
     {
-        path: "/contact",
-        component: Contact,
-      },
+      path: "/becas",
+      component: Becas,
+    },
+    {
+      path: "/blog",
+      component: Blog,
+    },
+    {
+      path: "/alumni",
+      component: Alumni,
+    },
+    {
+      path: "/colaboradores",
+      component: Colaboradores,
+    },
   ];
   
   export const router = () => {

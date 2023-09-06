@@ -1,6 +1,6 @@
-import "./About.css";
+import "./Xtd.css";
 import { cleanPage } from "../../utils/cleanPage";
-export const About = () => {
+export const Xtd = () => {
 const main = document.querySelector("main");
 cleanPage(main);
 main.innerHTML = `

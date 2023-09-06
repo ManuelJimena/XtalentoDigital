@@ -1,10 +1,10 @@
-import "./Contact.css";
+import "./Alumni.css";
 import { cleanPage } from "../../utils/cleanPage";
-export const Contact = () => {
+export const Alumni = () => {
 const main = document.querySelector("main");
 cleanPage(main);
 main.innerHTML = `
-<section class="contact" id="contact">
+<section class="alumni" id="alumni">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
         <form action="https://formspree.io/f/mleydvze" method="POST">

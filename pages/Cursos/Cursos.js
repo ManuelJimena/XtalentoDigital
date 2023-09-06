@@ -1,6 +1,6 @@
-import "./Skills.css";
+import "./Cursos.css";
 import { cleanPage } from "../../utils/cleanPage";
-export const Skills = () => {
+export const Cursos = () => {
 const main = document.querySelector("main");
 cleanPage(main);
 main.innerHTML = `

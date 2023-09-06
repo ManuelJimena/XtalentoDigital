@@ -1,0 +1,32 @@
+.portfolio {
+    min-height: auto;
+}
+
+.portfolio h2 {
+    margin-bottom: 4rem;
+}
+
+.portfolio .portfolio-container {
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-container .portfolio-box {
+    position: relative;
+    height: 300px;
+    display: flex;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+
+.portfolio-box img {
+    width: 100%;
+    transition: .5s ease;
+}
+
+.portfolio-box:hover img {
+    transform: scale(1.1);
+}

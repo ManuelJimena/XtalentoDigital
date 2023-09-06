@@ -1,10 +1,11 @@
 import "./style.css";
-import { Navbar } from "./components/Navbar/Navbar";
+import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
+import { Divider } from "./components/Divider/Divider";
 import { router, addLinkListeners } from './router/router';
 
 const header = document.querySelector("header");
-header.innerHTML = Navbar();
+header.innerHTML = Header();
 const footer = document.querySelector("footer");
 footer.innerHTML = Footer();
 
@@ -52,3 +53,5 @@ menuLinks.forEach(link => {
     nav.classList.remove('activo');
   });
 });
+
+footer.insertAdjacentHTML("beforebegin", Divider());
