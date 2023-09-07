@@ -4,6 +4,5 @@ export const Colaboradores = () => {
 const main = document.querySelector("main");
 cleanPage(main);
 main.innerHTML = `
-<section class="colaboradores" id="colaboradores">
-    </section>`;
+`;
 };

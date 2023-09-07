@@ -1,19 +1,21 @@
 #title {
   text-align:center;
   font-size:40px;
-  margin-top:40px;
+  margin-top:30px;
   margin-bottom:-40px;
   position:relative;
   color: transparent;
 }
 
-
+.not-found {
+max-height: 10vh;
+}
 
 .circles { 
 	background:transparent;
 	text-align: center;
 	position: relative;
-  margin-top:-60px;
+  margin-top:-230px;
 }
 
 .circles p {
