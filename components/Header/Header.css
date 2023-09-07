@@ -26,11 +26,7 @@
 .socialnav a {
     position: relative;
     font-size: 2rem;
-    color: var(--white-color);
-    text-shadow: -1px -1px 0 var(--main-color),
-    1px -1px 0 var(--main-color),
-    -1px 1px 0 var(--main-color),
-    1px 1px 0 var(--main-color);
+    color: var(--text-color);
     padding: 2rem;
 }
 
@@ -115,7 +111,7 @@
 }
 
 .header.sticky .navbar a::before {
-    background-color: var(--text-color);
+    background-color: blue;
 }
 
 .header.sticky .navbar a {
@@ -123,9 +119,14 @@
     text-shadow: none;
 }
 
-.header.sticky .navbar a.active {
-    color: var(--text-color);  
+nav#navbar.navbar.activo a {
+    color: var(--white-color);  
 }
+
+nav#navbar.navbar.activo ul {
+    width: 250px; 
+}
+
 
 #darkMode-icon {
     position: fixed;
@@ -148,7 +149,7 @@
 
 nav#navbar.navbar.activo {
     background-color: var(--main-color);
-    height: 300px;
+    height: 400px;
 }
 
 

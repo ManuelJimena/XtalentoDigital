@@ -95,28 +95,25 @@ h4 a {
 }
 
 .arrow-right {
-	width: 0; 
-	height: 0; 
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent;	
 	border-left: 15px solid var(--main-color);
-	position:relative;
+
 	top:20%;
 	right:-40%;
 }
 
 .arrow-left {
-	width: 0; 
-	height: 0; 
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent;	
-	border-right:15px solid var(--main-color); 
-	position:relative;
+	border-right:15px solid var(--main-color);
+
 	top:20%;
 	left:30%;
 }
 
-#container{
-	height: 300px;
-	border: 1px solid blue;
+#Next {
+	margin-left: 100px;
+	margin-top: 500px;
+	
 }

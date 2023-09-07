@@ -4,7 +4,6 @@ export const Home = () => {
 const main = document.querySelector("main");
 cleanPage(main);
 main.innerHTML = `
-<div id="container">			
 			<div id="next" alt="Next" title="Next">
 				<div class="arrow-right"></div>
 			</div>
@@ -51,8 +50,7 @@ main.innerHTML = `
 					<div class="img5"><a href="/" id="logo">
           <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693932015/Xtalentodigital/whatsapp_image_2023-06-14_at_12.21.42_pm_idkdog.jpg" alt="Inicio" /></a></div>
 				</div>
-			</div>
-		</div>`;
+			</div>`;
 
     document.addEventListener("DOMContentLoaded", function() {
       // Options
