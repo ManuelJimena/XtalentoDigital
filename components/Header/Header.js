@@ -2,10 +2,9 @@ import "./Header.css";
 export const Header = () => `
 <div class="site-logo">
     <h1 class="banner">
-        <a href="/" id="logo">
+        <a href="/">
         <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931765/Xtalentodigital/logo_rumexl.png" alt="Inicio" /></a>
- 
-        </h1> 
+     </h1> 
         </div> 
         <div class="socialnav"> 
         <ul>

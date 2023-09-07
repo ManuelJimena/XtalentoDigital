@@ -21,11 +21,6 @@
 }
 
 /* GLOBAL STYLES */
-html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-}
-
 body {
     background: var(--bg-color);
     color: var(--text-color);
@@ -76,4 +71,10 @@ li {
 
 .dark-mode .circles p {
 	color: #0B061F
+}
+
+main{
+    margin-top: 0px;
+    border: 1px solid red;
+    min-height: 100vh;
 }

@@ -4,56 +4,115 @@ export const Home = () => {
 const main = document.querySelector("main");
 cleanPage(main);
 main.innerHTML = `
-<section class="home" id="home">
-        <div class="home-content">
-          <h3>Hello, I am</h3>
-          <div id="text-animate">
-          <h1>
-          Manuel <span class="animate" style="--i:3;">Jimena</span>
-        </h1>
-                
-            </div>
-          <p>
-          Currently, I am studying web development. I live in Madrid, Spain, and I love learning and creating content.
-          </p>
-          <div class="social-media">
-            <a
-              class="github"
-              href="https://github.com/ManuelJimena"
-              target="_blank"
-              ><i class="bx bxl-github" alt="Github icon"></i
-            ></a>
-            <a
-              class="linkedin"
-              href="https://es.linkedin.com/"
-              target="_blank"
-              ><i class="bx bxl-linkedin" alt="Linkedin icon"></i
-            ></a>
-          </div>
-          <a href="./pdf/ManuelJimenaGarcíaCV.pdf" class="btn" target="_blank">Download CV</a>
-        </div>
-        <div class="profession-container">
-          <div class="profession-box">
-            <div class="profession" style="--i: 0">
-              <h3>Backend</h3>
-            </div>
-            <div class="profession" style="--i:1;">
-            <h3>Developer</h3>
-            </div>
-              <div class="profession" style="--i:2;">
-              <h3>Fullstack</h3>
-            </div>
-               <div class="profession" style="--i:3;">
-               <h3>Frontend</h3>
-            </div>
-          <div class="circle"></div>
-            </div>
+<div id="container">			
+			<div id="next" alt="Next" title="Next">
+				<div class="arrow-right"></div>
+			</div>
+			<div id="prev" alt="Prev" title="Prev">				
+				<div class="arrow-left"></div>
+			</div>			
+			<div id="slider">
+				<div class="slide">
+					<div class="slide-copy">
+						<h4><a href="/">XTalentoDigital ofrece un curso de programación para personas con autismo</a></h4>
+					</div>
+					<div class="img1"><a href="/" id="logo">
+          <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693932019/Xtalentodigital/programadores-que-desarrollan-codigos-sus-computadoras_1_v7wmbd.jpg" alt="Inicio" /></a></div>
+				</div>
+				
+				<div class="slide">
+					<div class="slide-copy">
+						<h4><a href="/">Los nuevos cursos de Por Talento Digital te ayudan a mejorar tu perfil laboral</a></h4>
+					</div>
+					<div class="img2"><a href="/" id="logo">
+          <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693932020/Xtalentodigital/vista-cerca-hacker_y67yth.jpg" alt="Inicio" /></a></div>
+				</div>
+				
+				<div class="slide">
+					<div class="slide-copy">
+						<h4><a href="/">Conviértete en un experto en desarrollo web</a></h4>
+					</div>
+					<div class="img3"><a href="/" id="logo">
+          <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693932018/Xtalentodigital/encendido-computadora-portatil-gris_egxcjo.jpg" alt="Inicio" /></a></div>
+				</div>
+				
+				<div class="slide">
+					<div class="slide-copy">
+						<h4><a href="/">Inscríbite en este curso de diseño gráfico nivel avanzado</a></h4>
+					</div>
+					<div class="img4"><a href="/" id="logo">
+          <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693932017/Xtalentodigital/editar-concepto-graficos-diseno-plantillas-software_w5jx7q.jpg" alt="Inicio" /></a></div>
+				</div>
+				
+				<div class="slide">
+					<div class="slide-copy">
+						<h4><a href="/">¿Quieres convertirte en influencer?</a></h4>
+					</div>
+					<div class="img5"><a href="/" id="logo">
+          <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693932015/Xtalentodigital/whatsapp_image_2023-06-14_at_12.21.42_pm_idkdog.jpg" alt="Inicio" /></a></div>
+				</div>
+			</div>
+		</div>`;
 
-            <div class="overlay"></div>
-        </div>
-
-        <div class="home-img">
-            <img id="image-element" src="./images/1.png" alt="Imagen">
-        </div>
-    </section>`;
+    document.addEventListener("DOMContentLoaded", function() {
+      // Options
+      const speed = 500; // Transition speed - fade
+      const autoswitch = true; // Auto slider options
+      const autoswitch_speed = 5000; // Auto slider speed
+    
+      // Add first initial active class
+      const slides = document.querySelectorAll(".slide");
+      slides[0].classList.add("active");
+    
+      // Hide all slides
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+    
+      // Show only active class slide
+      let activeSlide = document.querySelector(".active");
+      activeSlide.style.display = "block";
+    
+      // Next Event Handler
+      document.getElementById("next").addEventListener("click", nextSlide);
+    
+      // Prev Event Handler
+      document.getElementById("prev").addEventListener("click", prevSlide);
+    
+      // Auto Slider Handler
+      if (autoswitch == true) {
+        setInterval(nextSlide, autoswitch_speed);
+      }
+    
+      // Switch to next slide
+      function nextSlide() {
+        activeSlide.classList.remove("active");
+        activeSlide.classList.add("oldActive");
+        if (activeSlide.nextElementSibling == null) {
+          slides[0].classList.add("active");
+        } else {
+          activeSlide.nextElementSibling.classList.add("active");
+        }
+        activeSlide.classList.remove("oldActive");
+        activeSlide.style.display = "none";
+        activeSlide.nextElementSibling.style.display = "block";
+        activeSlide = document.querySelector(".active");
+      }
+    
+      // Switch to prev slide
+      function prevSlide() {
+        activeSlide.classList.remove("active");
+        activeSlide.classList.add("oldActive");
+        if (activeSlide.previousElementSibling == null) {
+          slides[slides.length - 1].classList.add("active");
+        } else {
+          activeSlide.previousElementSibling.classList.add("active");
+        }
+        activeSlide.classList.remove("oldActive");
+        activeSlide.style.display = "none";
+        activeSlide.previousElementSibling.style.display = "block";
+        activeSlide = document.querySelector(".active");
+      }
+    });
 };
+
