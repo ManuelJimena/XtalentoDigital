@@ -1,7 +1,7 @@
 .header {
-    position: fixed;
+    /* Estilos para el elemento de navegación */
+    position: sticky;
     top: 0;
-    left: 0;
     width: 100%;
     padding: 2rem 7%;
     background: var(--bg-color);
@@ -11,8 +11,8 @@
     align-items: center;
     z-index: 9999;
     transition: .5s;
-    height: 23.5vh;
-  }
+    max-height: 38.5vh;
+}
 
 .header.sticky {
     box-shadow: 0 .1rem 1rem var(--shadow-color);
