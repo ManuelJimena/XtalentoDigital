@@ -13,11 +13,11 @@ export const Header = () => `
             href="https://www.facebook.com/fundaciononce"
             target="_blank"
           ><i class="fa-brands fa-facebook-f"></i></a></li>
-        <li>
-          <i class="fa-brands fa-x-twitter"><a
-          class="twitter"
-          href="https://twitter.com/Fundacion_ONCE"
-          target="_blank"></a></i></li>
+        <li><a
+        class="twitter"
+        href="https://twitter.com/Fundacion_ONCE"
+        target="_blank">
+        <i class="fa-brands fa-x-twitter"></i></a></li>
         <li><a
           class="youtube"
           href="https://www.youtube.com/user/FundacionONCE"
@@ -38,7 +38,7 @@ export const Header = () => `
         <div class="logoonce"><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694014784/Xtalentodigital/logo-gso2022_iyfxv0.png" alt="Logo once" /></a></div>
 </div>     
 
-    <button class="fa-solid fa-bars" id="menu-icon"></button>
+    <button class="bx bx-menu" id="menu-icon"></button>
     <nav class="navbar" id="navbar">
         <ul>
             <li><a href="/xtd" id="xtdlink">¿Qué es XTD?</a></li>
@@ -47,10 +47,9 @@ export const Header = () => `
             <li><a href="/blog" id="bloglink">Blog</a></li>
             <li><a href="/alumni" id="alumnilink">Alumni</a></li>
             <li><a href="/colaboradores" id="colaboradoreslink">Colaboradores</a></li>
-            <li class="fa-solid fa-moon" id="darkMode-icon"></li>
+            <li class="bx bx-moon" id="darkMode-icon"></li>
         </ul>
     </nav>
-
 `;
 
 

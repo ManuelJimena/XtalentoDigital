@@ -159,13 +159,13 @@ nav#navbar.navbar.activo {
 }
 
 @media (max-width: 921px) {
-    div#darkMode-icon.bx.fa-moon::before {
+    div#darkMode-icon.bx.bx-moon::before {
         font-size: 5rem;
         top: 8px;
         color: var(--white-color);
     }
 
-    div#darkMode-icon.bx.fa-sun::before {
+    div#darkMode-icon.bx.bx-sun::before {
         font-size: 5rem;
         top: 8px;
         color: var(--white-color);
@@ -176,13 +176,13 @@ nav#navbar.navbar.activo {
     .navbar a:nth-child(2) {
         color: var(--main-color);
     }
-    div#darkMode-icon.bx.fa-moon::before {
+    div#darkMode-icon.bx.bx-moon::before {
         font-size: 5rem;
         top: 8px;
         color: var(--white-color);
     }
 
-    div#darkMode-icon.bx.fa-sun::before {
+    div#darkMode-icon.bx.bx-sun::before {
         font-size: 5rem;
         top: 8px;
         color: var(--white-color);
@@ -211,12 +211,12 @@ nav#navbar.navbar.activo {
         gap: 10px;
     }
 
-    div#darkMode-icon.bx.fa-moon::before {
+    div#darkMode-icon.bx.bx-moon::before {
         font-size: 5rem;
         color: var(--white-color);
     }
 
-    div#darkMode-icon.bx.fa-sun::before {
+    div#darkMode-icon.bx.bx-sun::before {
         font-size: 5rem;
         color: var(--white-color);
     }
