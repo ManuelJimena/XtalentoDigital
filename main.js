@@ -21,13 +21,13 @@ const body = document.body;
 const darkModeLocalStorageKey = 'darkMode';
 
 const enableDarkMode = () => {
-  darkModeIcon.classList.replace('bx-moon', 'bx-sun');
+  darkModeIcon.classList.replace('fa-moon', 'fa-sun');
   body.classList.add('dark-mode');
   localStorage.setItem(darkModeLocalStorageKey, 'enabled');
 };
 
 const disableDarkMode = () => {
-  darkModeIcon.classList.replace('bx-sun', 'bx-moon');
+  darkModeIcon.classList.replace('fa-sun', 'fa-moon');
   body.classList.remove('dark-mode');
   localStorage.setItem(darkModeLocalStorageKey, 'disabled');
 };

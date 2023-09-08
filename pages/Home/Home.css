@@ -20,7 +20,6 @@
 }
 
 .img1, .img2, .img3, .img4, .img5 {
-  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -108,10 +107,6 @@ h4 a {
   margin-top: 500px;
 }
 
-
-
-
-
 @media (max-width: 1200px) {
     h4 {
 		font-size: 1.4rem;
@@ -125,75 +120,13 @@ h4 a {
 }
 
 @media (max-width: 896px) {
-    .navbar a:nth-child(2) {
-        color: var(--main-color);
-    }
-    div#darkMode-icon.bx.bx-moon::before {
-        font-size: 5rem;
-        top: 8px;
-        color: var(--white-color);
-    }
-
-    div#darkMode-icon.bx.bx-sun::before {
-        font-size: 5rem;
-        top: 8px;
-        color: var(--white-color);
-    }
+    
 }
 
 @media (max-width: 780px) {
-    .navbar a:nth-child(2) {
-        color: var(--white-color);
-    }
+
 }
 
 @media (max-width: 768px) {
-    header #menu-icon {
-        display: block;
-    }
 
-    .heading {
-        display: flex;
-        text-align: center;
-        justify-content: center;;
-        gap: 10px;
-    }
-
-    div#darkMode-icon.bx.bx-moon::before {
-        font-size: 5rem;
-        color: var(--white-color);
-    }
-
-    div#darkMode-icon.bx.bx-sun::before {
-        font-size: 5rem;
-        color: var(--white-color);
-    }
-
-    .navbar ul {
-        flex-direction: column;
-    }
-
-    .navbar li {
-        margin-left: 15%;
-        margin-top: 15%;
-        
-    }
-
-        header .navbar {
-        width:100%;
-        height:0;
-        pointer-events: none;
-        overflow: hidden;
-        transition: all .5s ease;
-
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-        header .navbar.activo {
-        height:50vh;
-        pointer-events: auto;
-    }
 }

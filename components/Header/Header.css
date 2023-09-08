@@ -32,21 +32,6 @@
     padding: 2rem;
 }
 
-
-
-
-
-.iconsvg {
-    width: 1px;
-    height: 1px;
-}
-
-.iconsvg path {
-    fill: blue;
-}
-
-
-
 .socialnav a::before {
     content: '';
     position: absolute;
@@ -86,7 +71,7 @@
 .navbar {
     width: 100%;
     margin-top: 1%;
-    background-color: blue;
+
 }
 
 .navbar a {
@@ -174,13 +159,13 @@ nav#navbar.navbar.activo {
 }
 
 @media (max-width: 921px) {
-    div#darkMode-icon.bx.bx-moon::before {
+    div#darkMode-icon.bx.fa-moon::before {
         font-size: 5rem;
         top: 8px;
         color: var(--white-color);
     }
 
-    div#darkMode-icon.bx.bx-sun::before {
+    div#darkMode-icon.bx.fa-sun::before {
         font-size: 5rem;
         top: 8px;
         color: var(--white-color);
@@ -191,13 +176,13 @@ nav#navbar.navbar.activo {
     .navbar a:nth-child(2) {
         color: var(--main-color);
     }
-    div#darkMode-icon.bx.bx-moon::before {
+    div#darkMode-icon.bx.fa-moon::before {
         font-size: 5rem;
         top: 8px;
         color: var(--white-color);
     }
 
-    div#darkMode-icon.bx.bx-sun::before {
+    div#darkMode-icon.bx.fa-sun::before {
         font-size: 5rem;
         top: 8px;
         color: var(--white-color);
@@ -226,12 +211,12 @@ nav#navbar.navbar.activo {
         gap: 10px;
     }
 
-    div#darkMode-icon.bx.bx-moon::before {
+    div#darkMode-icon.bx.fa-moon::before {
         font-size: 5rem;
         color: var(--white-color);
     }
 
-    div#darkMode-icon.bx.bx-sun::before {
+    div#darkMode-icon.bx.fa-sun::before {
         font-size: 5rem;
         color: var(--white-color);
     }
