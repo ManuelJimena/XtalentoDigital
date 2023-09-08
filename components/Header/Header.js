@@ -12,32 +12,27 @@ export const Header = () => `
             class="facebook"
             href="https://www.facebook.com/fundaciononce"
             target="_blank"
-          ><i class="bx bxl-facebook-circle" alt="Facebook icon"></i
-        ></a></li>
+          ><i class="fa-brands fa-facebook-f"></i></a></li>
         <li><a
           class="twitter"
           href="https://twitter.com/Fundacion_ONCE"
           target="_blank"
-          ><i class="bx bxl-twitter" alt="Twiiter icon"></i
-        ></a></li>
+          ><i class="fa-brands fa-x-twitter"></i></a></li>
         <li><a
           class="youtube"
           href="https://www.youtube.com/user/FundacionONCE"
           target="_blank"
-          ><i class="bx bxl-youtube" alt="YouTube icon"></i
-        ></a></li>
+          ><i class="fa-brands fa-youtube"></i></a></li>
         <li><a
           class="instagram"
           href="https://www.instagram.com/fundaciononce/"
           target="_blank"
-          ><i class="bx bxl-instagram-alt" alt="Instagram icon"></i
-        ></a></li>
+          ><i class="fa-brands fa-instagram"></i></a></li>
         <li><a
           class="linkedin"
           href="https://es.linkedin.com/company/fundacion-once-inserta"
           target="_blank"
-          ><i class="bx bxl-linkedin" alt="linkedin icon"></i
-        ></a></li>
+          ><i class="fa-brands fa-linkedin-in"></i></a></li>
         
         </div> 
         <div class="logoonce"><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694014784/Xtalentodigital/logo-gso2022_iyfxv0.png" alt="Logo once" /></a></div>
@@ -52,9 +47,10 @@ export const Header = () => `
             <li><a href="/blog" id="bloglink">Blog</a></li>
             <li><a href="/alumni" id="alumnilink">Alumni</a></li>
             <li><a href="/colaboradores" id="colaboradoreslink">Colaboradores</a></li>
+            <li class="bx bx-moon" id="darkMode-icon"></li>
         </ul>
     </nav>
-<div class="bx bx-moon" id="darkMode-icon"></div>
+
 `;
 
 

@@ -34,6 +34,19 @@
 
 
 
+
+
+.iconsvg {
+    width: 1px;
+    height: 1px;
+}
+
+.iconsvg path {
+    fill: blue;
+}
+
+
+
 .socialnav a::before {
     content: '';
     position: absolute;
@@ -73,6 +86,7 @@
 .navbar {
     width: 100%;
     margin-top: 1%;
+    background-color: blue;
 }
 
 .navbar a {
@@ -122,10 +136,8 @@ nav#navbar.navbar.activo ul {
 
 
 #darkMode-icon {
-    position: fixed;
-    top: 8px;
-    right: 110px;
-    font-size: 2.4rem;
+
+    font-size: 1.5rem;
     color: var(--white-color);
     text-shadow: -1px -1px 0 var(--main-color),
     1px -1px 0 var(--main-color),
@@ -136,7 +148,7 @@ nav#navbar.navbar.activo ul {
 
 nav#navbar.navbar.activo {
     background-color: var(--main-color);
-    height: 430px;
+    height: 480px;
 }
 
 
@@ -154,6 +166,10 @@ nav#navbar.navbar.activo {
     }
     .site-logo {
         width: 45rem;
+    }
+    .navbar a {
+        font-size: 1rem;
+        margin-right: 3rem;
     }
 }
 
@@ -186,11 +202,15 @@ nav#navbar.navbar.activo {
         top: 8px;
         color: var(--white-color);
     }
+
 }
 
 @media (max-width: 780px) {
     .navbar a:nth-child(2) {
         color: var(--white-color);
+    }
+    .navbar a {
+        margin-right: 2.9rem;
     }
 }
 
