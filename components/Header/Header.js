@@ -38,7 +38,10 @@ export const Header = () => `
         <div class="logoonce"><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694014784/Xtalentodigital/logo-gso2022_iyfxv0.png" alt="Logo once" /></a></div>
 </div>     
 
-    <button class="bx bx-menu" id="menu-icon"></button>
+    <button id="menu-icon">
+    <span></span>
+    <span></span>
+    <span></span></button>
     <nav class="navbar" id="navbar">
         <ul>
             <li><a href="/xtd" id="xtdlink">¿Qué es XTD?</a></li>

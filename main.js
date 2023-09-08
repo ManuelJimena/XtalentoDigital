@@ -52,3 +52,26 @@ menuLinks.forEach(link => {
     nav.classList.remove('activo');
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const navIcons = document.querySelectorAll('#menu-icon');
+
+  function toggleIconClass() {
+    this.classList.toggle('open');
+  }
+
+  navIcons.forEach((navIcon) => {
+    navIcon.addEventListener('click', toggleIconClass);
+  });
+});
