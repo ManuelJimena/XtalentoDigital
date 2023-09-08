@@ -53,17 +53,6 @@ menuLinks.forEach(link => {
   });
 });
 
-
-
-
-
-
-
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
   const navIcons = document.querySelectorAll('#menu-icon');
 
@@ -75,3 +64,16 @@ document.addEventListener('DOMContentLoaded', () => {
     navIcon.addEventListener('click', toggleIconClass);
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+

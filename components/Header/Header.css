@@ -29,7 +29,8 @@
     position: relative;
     font-size: 2rem;
     color: var(--text-color);
-    padding: 2rem;
+    margin: 15px;
+    padding: 5px;
 }
 
 .socialnav a::before {
@@ -48,32 +49,19 @@
     transition: width 0.3s ease-in-out;
 }
 
+.socialnav a:hover {
+color: var(--main-color);
+}
+
 .logoonce img {
     width: 200px;
 }
 
-/* #menu-icon {
-    position: fixed;
-    top: 8px;
-    right: 25px;
-    font-size: 6rem;
-    color: var(--white-color);
-    background-color: var(--white-color);
-    padding-left: 20px;
-    display: none;
-    text-shadow: -1px -1px 0 var(--main-color),
-    1px -1px 0 var(--main-color),
-    -1px 1px 0 var(--main-color),
-    1px 1px 0 var(--main-color);
-    cursor: pointer;
-} */
-
-
 #menu-icon {
-    width: 60px;
-    height: 45px;
+    display: none;
+    width: 50px;
+    height: 40px;
     position: relative;
-    margin: 50px auto;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -88,9 +76,9 @@
   #menu-icon span {
     display: block;
     position: absolute;
-    height: 9px;
+    height: 7px;
     width: 100%;
-    background: #d3531a;
+    background: var(--main-color);
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -109,11 +97,11 @@
   }
   
   #menu-icon span:nth-child(2) {
-    top: 18px;
+    top: 15px;
   }
   
   #menu-icon span:nth-child(3) {
-    top: 36px;
+    top: 30px;
   }
   
   #menu-icon.open span:nth-child(1) {
@@ -136,31 +124,6 @@
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .navbar {
     width: 100%;
@@ -215,7 +178,6 @@ nav#navbar.navbar.activo ul {
 
 
 #darkMode-icon {
-
     font-size: 1.5rem;
     color: var(--white-color);
     text-shadow: -1px -1px 0 var(--main-color),
@@ -296,6 +258,16 @@ nav#navbar.navbar.activo {
 @media (max-width: 768px) {
     header #menu-icon {
         display: block;
+    }
+
+    .logoonce {
+        position: fixed;
+        top: 40px;
+        right: 22px;
+    }
+
+    .logoonce img {
+        width: 180px;
     }
 
     .heading {
