@@ -25,14 +25,14 @@
   padding: 0;
 }
 
-h4 {
+h2 {
   text-align: center;
   margin-top: 80px;
   font-weight: 500;
   font-size: 1.8rem;
 }
 
-h4 a {
+h2 a {
   color: var(--white-color);
   font-family: Coustard, Helvetica, sans-serif;
 }
@@ -109,13 +109,13 @@ h4 a {
 }
 
 @media (max-width: 1200px) {
-    h4 {
+    h2 {
 		font-size: 1.4rem;
 	  }
 }
 
 @media (max-width: 921px) {
-    h4 a {
+    h2 a {
 		font-size: 1.2rem;
 	  }
 }

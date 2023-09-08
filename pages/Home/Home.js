@@ -15,39 +15,39 @@ main.innerHTML = `
 
 				<div class="slide">
 					<div class="slide-copy">
-						<h4><a href="/">XTalentoDigital ofrece un curso de programación para personas con autismo</a></h4>
+						<h2><a href="/">XTalentoDigital ofrece un curso de programación para personas con autismo</a></h2>
 					</div>
 					<div class="img1"><a href="/">
-          <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693932019/Xtalentodigital/programadores-que-desarrollan-codigos-sus-computadoras_1_v7wmbd.jpg" alt="profesor ayudando al alumno" /></a></div>
+          <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694195097/programadores-que-desarrollan-codigos-sus-computadoras_1_v7wmbd_lyjpdd.webp" alt="profesor ayudando al alumno" /></a></div>
 				</div>
 				
 				<div class="slide">
 					<div class="slide-copy">
-						<h4><a href="/">Los nuevos cursos de Por Talento Digital te ayudan a mejorar tu perfil laboral</a></h4>
+						<h2><a href="/">Los nuevos cursos de Por Talento Digital te ayudan a mejorar tu perfil laboral</a></h2>
 					</div>
 					<div class="img2"><a href="/">
-          <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693932020/Xtalentodigital/vista-cerca-hacker_y67yth.jpg" alt="alumno escribiendo con el teclado" /></a></div>
+          <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694195097/vista-cerca-hacker_y67yth_kg7m6w.webp" alt="alumno escribiendo con el teclado" /></a></div>
 				</div>
 				
 				<div class="slide">
 					<div class="slide-copy">
-						<h4><a href="/">Conviértete en un experto en desarrollo web</a></h4>
+						<h2><a href="/">Conviértete en un experto en desarrollo web</a></h2>
 					</div>
 					<div class="img3"><a href="/">
-          <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693932018/Xtalentodigital/encendido-computadora-portatil-gris_egxcjo.jpg" alt="pantalla con código de programación" /></a></div>
+          <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694195097/encendido-computadora-portatil-gris_egxcjo_wkuf0c.webp" alt="pantalla con código de programación" /></a></div>
 				</div>
 				
 				<div class="slide">
 					<div class="slide-copy">
-						<h4><a href="/">Inscríbite en este curso de diseño gráfico nivel avanzado</a></h4>
+						<h2><a href="/">Inscríbite en este curso de diseño gráfico nivel avanzado</a></h2>
 					</div>
 					<div class="img4"><a href="/">
-          <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693932017/Xtalentodigital/editar-concepto-graficos-diseno-plantillas-software_w5jx7q.jpg" alt="ordenador para trabajar" /></a></div>
+          <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694195097/editar-concepto-graficos-diseno-plantillas-software_w5jx7q_ccib8w.webp" alt="ordenador para trabajar" /></a></div>
 				</div>
 				
 				<div class="slide">
 					<div class="slide-copy">
-						<h4><a href="/">¿Quieres convertirte en influencer?</a></h4>
+						<h2><a href="/">¿Quieres convertirte en influencer?</a></h2>
 					</div>
 					<div class="img5"><a href="/">
           <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693932015/Xtalentodigital/whatsapp_image_2023-06-14_at_12.21.42_pm_idkdog.jpg" alt="decorado para grabar" /></a></div>
