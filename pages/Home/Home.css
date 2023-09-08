@@ -121,37 +121,47 @@ h4 a {
 }
 
 @media (max-width: 629px) {
-  .banner a img {
-width: 340px;
-height: 95px;
-  }
-  div.slide-copy {
-      width: 250px;
-  }
   #next {
-    right: 20%;
+    right: 60%;
   }
 
 }
 
 @media (max-width: 564px) {
-  .banner a img {
-width: 300px;
-height: 80px;
+  #next {
+    right: 54%;
   }
-  .logoonce img {
-      width: 140px;
+  #prev {
+    left: 13%;
   }
-
 }
 
-@media (max-width: 480px) {
-  .banner a img {
-width: 275px;
-height: 70px;
+@media (max-width: 478px) {
+  #next {
+    right: 49%;
   }
-  .logoonce img {
-      width: 120px;
+}
+
+@media (max-width: 430px) {
+  #next {
+    right: 44%;
   }
-  
+}
+
+@media (max-width: 395px) {
+  #next {
+    right: 40%;
+  }
+}
+
+@media (max-width: 365px) {
+  #next {
+    right: 34%;
+  }
+}
+
+@media (max-width: 330px) {
+  #next {
+    right: 28%;
+  }
 }

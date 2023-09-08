@@ -10,7 +10,7 @@
     align-items: center;
     z-index: 9999;
     transition: .5s;
-    max-height: 38.5vh;
+    height: 25.5vh;
 }
 
 .header.sticky {
@@ -71,6 +71,7 @@ color: var(--main-color);
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
+    background-color: var(--white-color);
   }
   
   #menu-icon span {
@@ -194,7 +195,20 @@ nav#navbar.navbar.activo {
 
 
  /* MEDIA QUERY */
- @media (max-width: 1024px) {
+
+
+ @media (max-width: 1097px) {
+    .site-logo{
+        width: 340px;
+
+          }
+    .banner a img {
+  width: 340px;
+  height: 95px;
+    }
+    header #menu-icon {
+        display: block;
+    }
     .header {
         padding: 2rem 3%;
     }
@@ -202,16 +216,63 @@ nav#navbar.navbar.activo {
     section {
         padding: 10rem 3% 2rem;
     }
+    .navbar a {
+        font-size: 1rem;
+        margin-right: 3rem;
+    }
+    .heading {
+        display: flex;
+        text-align: center;
+        justify-content: center;;
+        gap: 10px;
+    }
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        margin-left: 15%;
+        margin-top: 15%;
+        
+    }
+
+        header .navbar {
+        width:100%;
+        height:0;
+        pointer-events: none;
+        overflow: hidden;
+        transition: all .5s ease;
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+        header .navbar.activo {
+        height:50vh;
+        pointer-events: auto;
+    }
+  }
+
+
+ @media (max-width: 1024px) {
     .socialnav a {
         font-size: 2rem;
     }
     .site-logo {
         width: 45rem;
     }
-    .navbar a {
-        font-size: 1rem;
-        margin-right: 3rem;
+    .logoonce {
+        position: fixed;
+        top: 40px;
+        right: 22px;
     }
+
+    .logoonce img {
+        width: 180px;
+    }
+
 }
 
 @media (max-width: 921px) {
@@ -256,26 +317,6 @@ nav#navbar.navbar.activo {
 }
 
 @media (max-width: 768px) {
-    header #menu-icon {
-        display: block;
-    }
-
-    .logoonce {
-        position: fixed;
-        top: 40px;
-        right: 22px;
-    }
-
-    .logoonce img {
-        width: 180px;
-    }
-
-    .heading {
-        display: flex;
-        text-align: center;
-        justify-content: center;;
-        gap: 10px;
-    }
 
     div#darkMode-icon.bx.bx-moon::before {
         font-size: 5rem;
@@ -287,31 +328,106 @@ nav#navbar.navbar.activo {
         color: var(--white-color);
     }
 
-    .navbar ul {
-        flex-direction: column;
-    }
+    
+}
 
-    .navbar li {
-        margin-left: 15%;
-        margin-top: 15%;
-        
+@media (max-width: 629px) {
+    .banner a img {
+  width: 340px;
+  height: 95px;
     }
-
-        header .navbar {
-        width:100%;
-        height:0;
-        pointer-events: none;
-        overflow: hidden;
-        transition: all .5s ease;
-
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
+    div.slide-copy {
+        width: 250px;
     }
-
-        header .navbar.activo {
-        height:50vh;
-        pointer-events: auto;
+    #next {
+      right: 20%;
     }
+  }
+  
+  @media (max-width: 564px) {
+    .banner a img {
+  width: 300px;
+  height: 80px;
+    }
+    .site-logo {
+        height: 6.6rem;
+    }
+    .logoonce img {
+        width: 140px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner a img {
+  width: 275px;
+  height: 70px;
+    }
+    .logoonce img {
+        width: 120px;
+    }
+  }
+  
+  @media (max-width: 430px) {
+    .banner a img {
+      width: 230px;
+        }
+        .logoonce img {
+            width: 120px;
+        }
+        .socialnav a {
+            font-size: 1.7rem;
+            margin: 12px;
+            padding: 5px;
+        }
+  }
+
+  @media (max-width: 400px) {
+    .banner a img {
+      width: 210px;
+        }
+        .logoonce img {
+            width: 120px;
+        }
+        .logoonce {
+            top: 50px;
+          }
+          .socialnav a {
+            font-size: 1.6rem;
+            margin: 11px;
+            padding: 5px;
+        }
+  }
+  
+  @media (max-width: 365px) {
+    .banner a img {
+      width: 180px;
+        }
+        .logoonce img {
+            width: 120px;
+        }
+        .logoonce {
+          top: 50px;
+        }
+        .socialnav a {
+            font-size: 1.5rem;
+            margin: 10px;
+            padding: 4px;
+        }
+  }
+  
+  @media (max-width: 330px) {
+    .banner a img {
+        width: 160px;
+          }
+          .logoonce img {
+              width: 100px;
+          }
+          .logoonce {
+            top: 50px;
+          }
+          .socialnav a {
+            font-size: 1.4rem;
+            margin: 9px;
+            padding: 4px;
+        }
 }
