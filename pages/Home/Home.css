@@ -115,8 +115,8 @@ h4 a {
 }
 
 @media (max-width: 921px) {
-    h4 {
-		font-size: 1.3rem;
+    h4 a {
+		font-size: 1.2rem;
 	  }
 }
 
@@ -124,9 +124,6 @@ h4 a {
   #next {
     right: 60%;
   }
-  h4 a {
-		font-size: 1.2rem;
-	  }
 
 }
 
