@@ -124,6 +124,9 @@ h4 a {
   #next {
     right: 60%;
   }
+  h4 a {
+		font-size: 1.2rem;
+	  }
 
 }
 
