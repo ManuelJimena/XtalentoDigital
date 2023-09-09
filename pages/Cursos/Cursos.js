@@ -9,10 +9,7 @@ main.innerHTML = `
 <div class="cursos">
 <h2>Cursos de formación</h2>
 </div>
-
-
   <div class="tarjeta-container">
-        
 </div>
 
 `;
