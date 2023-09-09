@@ -44,15 +44,6 @@ h3 {
   font-size: 35px;
 }
 
-
-
-
-/* .panelcontent-left {
-  padding
-} */
-
-
-
 .slide {
   position: relative;
   width: 100%;
@@ -184,7 +175,6 @@ width: auto;
     .convocatoria {
       width: 100%;
       margin-top: 0%;
-      border: 1px solid blue;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -198,6 +188,14 @@ width: auto;
     h2 a {
 		font-size: 1.2rem;
 	  }
+    
+    .panelcontent h3 {
+      font-size: 25px;
+    }
+
+    .panelcontent p {
+      font-size: 14px;
+    }
 }
 
 @media (max-width: 629px) {
@@ -243,5 +241,87 @@ width: auto;
 @media (max-width: 330px) {
   #next {
     right: 28%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cursos h2 {
+  color: var(--text-color);
+}
+
+.tarjeta-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto 3%;
+}
+
+.tarjeta {
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  width: calc(30% - 20px); /* Ajusta el ancho de la tarjeta según tus necesidades */
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.columna-vertical {
+  padding: 10px;
+  text-align: center;
+}
+
+.columna-vertical p {
+  margin: 0;
+}
+
+.columna-horizontal {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.columna-horizontal h3 {
+  margin: 0;
+}
+
+button {
+  background-color: var(--text-color);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--main-color)
+}
+
+@media (max-width: 768px) {
+  .tarjeta {
+      width: 100%;
   }
 }
