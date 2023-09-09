@@ -21,7 +21,7 @@ export const Header = () => `
         <li><a
           class="youtube"
           href="https://www.youtube.com/user/FundacionONCE"
-          target="_blank" aria-label="acceso a youtube
+          target="_blank" aria-label="acceso a youtube"
           ><i class="fa-brands fa-youtube"></i></a></li>
         <li><a
           class="instagram"
