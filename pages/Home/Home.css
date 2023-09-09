@@ -143,6 +143,38 @@ width: auto;
   color: var(--white-color);
 }
 
+.ircursosarrow {
+  position: relative;
+  width: 100%;
+}
+
+.flecha-derecha {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  text-decoration: none;
+  color: var(--main-color);
+  margin-right: 5%;
+}
+
+.flecha-derecha img{
+  position: absolute;
+  top: 50%;
+  right: 0.1;
+  transform: translateY(-50%);
+  color: var(--main-color);
+  margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+
 
 
 

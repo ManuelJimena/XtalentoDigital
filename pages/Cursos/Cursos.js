@@ -1,5 +1,7 @@
 import "./Cursos.css";
 import { cleanPage } from "../../utils/cleanPage";
+import { cards } from "../../data/cards";
+import { CursosCard } from "../../components/CursosCard/CursosCard";
 export const Cursos = () => {
 const main = document.querySelector("main");
 cleanPage(main);
@@ -10,149 +12,14 @@ main.innerHTML = `
 
 
   <div class="tarjeta-container">
-        <div class="tarjeta">
-            <div class="columna-vertical">
-                <p>Inscripción hasta el 31 Dic 2023</p>
-            </div>
-            <div class="columna-horizontal">
-                <h3>Prepárate para el mundo digital</h3>
-                <button>Inscríbete</button>
-            </div>
-            <div class="columna-horizontal">
-                <p>Lugar: Zona Embajadores (Madrid)</p>
-                <p>Plazas:</p>
-                <p>Modalidad: Presencial</p>
-            </div>
-            <div class="columna-horizontal">
-                <p>Duración:</p>
-                <p>Requisitos:</p>
-                <p>Lorem ipsum</p>
-            </div>
-            <div class="columna-horizontal">
-                <p>Descripción:</p>
-                <p>Lorem ipsum</p>
-            </div>
-        </div>
-  
-        <div class="tarjeta">
-        <div class="columna-vertical">
-            <p>Inscripción hasta el XX de XX</p>
-        </div>
-        <div class="columna-horizontal">
-            <h3>Curso de desarrollo web 1</h3>
-            <button>Inscríbete</button>
-        </div>
-        <div class="columna-horizontal">
-            <p>Lugar: Ciudad A</p>
-            <p>Plazas: 20</p>
-            <p>Modalidad: Presencial</p>
-        </div>
-        <div class="columna-horizontal">
-            <p>Duración: 40 horas</p>
-            <p>Requisitos: Ninguno</p>
-            <p>Texto: Lorem ipsum</p>
-        </div>
-        <div class="columna-horizontal">
-            <p>Descripción: Curso introductorio</p>
-            <p>Requisitos: Básicos de programación</p>
-        </div>
-    </div>
-  
-    <div class="tarjeta">
-    <div class="columna-vertical">
-        <p>Inscripción hasta el XX de XX</p>
-    </div>
-    <div class="columna-horizontal">
-        <h3>Curso de desarrollo web 1</h3>
-        <button>Inscríbete</button>
-    </div>
-    <div class="columna-horizontal">
-        <p>Lugar: Ciudad A</p>
-        <p>Plazas: 20</p>
-        <p>Modalidad: Presencial</p>
-    </div>
-    <div class="columna-horizontal">
-        <p>Duración: 40 horas</p>
-        <p>Requisitos: Ninguno</p>
-        <p>Texto: Lorem ipsum</p>
-    </div>
-    <div class="columna-horizontal">
-        <p>Descripción: Curso introductorio</p>
-        <p>Requisitos: Básicos de programación</p>
-    </div>
+        
 </div>
-  
-<div class="tarjeta">
-<div class="columna-vertical">
-    <p>Inscripción hasta el XX de XX</p>
-</div>
-<div class="columna-horizontal">
-    <h3>Curso de desarrollo web 1</h3>
-    <button>Inscríbete</button>
-</div>
-<div class="columna-horizontal">
-    <p>Lugar: Ciudad A</p>
-    <p>Plazas: 20</p>
-    <p>Modalidad: Presencial</p>
-</div>
-<div class="columna-horizontal">
-    <p>Duración: 40 horas</p>
-    <p>Requisitos: Ninguno</p>
-    <p>Texto: Lorem ipsum</p>
-</div>
-<div class="columna-horizontal">
-    <p>Descripción: Curso introductorio</p>
-    <p>Requisitos: Básicos de programación</p>
-</div>
-</div>
-  
-<div class="tarjeta">
-<div class="columna-vertical">
-    <p>Inscripción hasta el XX de XX</p>
-</div>
-<div class="columna-horizontal">
-    <h3>Curso de desarrollo web 1</h3>
-    <button>Inscríbete</button>
-</div>
-<div class="columna-horizontal">
-    <p>Lugar: Ciudad A</p>
-    <p>Plazas: 20</p>
-    <p>Modalidad: Presencial</p>
-</div>
-<div class="columna-horizontal">
-    <p>Duración: 40 horas</p>
-    <p>Requisitos: Ninguno</p>
-    <p>Texto: Lorem ipsum</p>
-</div>
-<div class="columna-horizontal">
-    <p>Descripción: Curso introductorio</p>
-    <p>Requisitos: Básicos de programación</p>
-</div>
-</div>
-  
-<div class="tarjeta">
-<div class="columna-vertical">
-    <p>Inscripción hasta el XX de XX</p>
-</div>
-<div class="columna-horizontal">
-    <h3>Curso de desarrollo web 1</h3>
-    <button>Inscríbete</button>
-</div>
-<div class="columna-horizontal">
-    <p>Lugar: Ciudad A</p>
-    <p>Plazas: 20</p>
-    <p>Modalidad: Presencial</p>
-</div>
-<div class="columna-horizontal">
-    <p>Duración: 40 horas</p>
-    <p>Requisitos: Ninguno</p>
-    <p>Texto: Lorem ipsum</p>
-</div>
-<div class="columna-horizontal">
-    <p>Descripción: Curso introductorio</p>
-    <p>Requisitos: Básicos de programación</p>
-</div>
-</div>
-</div>
+
 `;
+const container = document.querySelector(".tarjeta-container");
+for (const card of cards) {
+const figure = document.createElement("figure");
+figure.innerHTML = CursosCard(card);
+container.appendChild(figure);
+}
 };
