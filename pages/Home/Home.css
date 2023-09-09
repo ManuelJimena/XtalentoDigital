@@ -16,6 +16,7 @@
 
 #slider img {
   object-fit: cover;
+/*  object-position: top; */
   width: 100%;
   height: 350px;
 }
@@ -37,6 +38,21 @@ h2 a {
   font-family: Coustard, Helvetica, sans-serif;
 }
 
+h3 {
+  color: var(--main-color);
+  font-family: Coustard, Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+
+
+
+/* .panelcontent-left {
+  padding
+} */
+
+
+
 .slide {
   position: relative;
   width: 100%;
@@ -46,8 +62,6 @@ h2 a {
 .slide:nth-child(1) {
   background: #ce6868;
 }
-
-/* Resto de tus estilos de slides */
 
 .slide-copy {
   position: absolute;
@@ -108,10 +122,76 @@ h2 a {
   margin-top: 500px;
 }
 
+.panelcontent {
+  display: flex;
+  margin: 0 8%;
+  padding: 3%;
+  gap: 10%;
+  min-height: 400px;
+  line-height: 1.7;
+}
+
+.panelcontent a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.panelcontent-right img{
+height: auto;
+width: auto;
+}
+
+.convocatoria {
+  margin-top: -70%;
+  padding: 5%;
+}
+
+.convocatoria h3, 
+.convocatoria a, 
+.convocatoria p{
+  color: var(--white-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1200px) {
     h2 {
 		font-size: 1.4rem;
 	  }
+    .panelcontent {
+      flex-wrap: wrap;
+    }
+    .panelcontent img {
+      display: none;
+    }
+
+.panelcontent-right {
+      width: 100%;
+    }
+
+    .convocatoria {
+      width: 100%;
+      margin-top: 0%;
+      border: 1px solid blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: var(--main-color);
+      padding: 0;
+    }
 }
 
 @media (max-width: 921px) {

@@ -198,7 +198,7 @@ nav#navbar.navbar.activo {
  /* MEDIA QUERY */
 
 
- @media (max-width: 1097px) {
+ @media (max-width: 1113px) {
     .site-logo{
         width: 340px;
 
@@ -257,7 +257,7 @@ nav#navbar.navbar.activo {
   }
 
 
- @media (max-width: 1024px) {
+ @media (max-width: 1033px) {
     .socialnav a {
         font-size: 2rem;
     }

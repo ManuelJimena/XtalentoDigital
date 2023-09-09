@@ -26,6 +26,10 @@ body {
     color: var(--text-color);
 }
 
+main {
+    min-height: 100vh;
+}
+
 li {
     list-style-type: none;
     }
