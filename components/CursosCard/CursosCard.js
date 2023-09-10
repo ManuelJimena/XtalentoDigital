@@ -9,17 +9,17 @@ export const CursosCard = (cards) => `
                 <button>Inscríbete</button>
             </div>
             <div class="columna-horizontal">
-                <p><span class="fecha">Lugar:</span>${cards.lugar}</p>
-                <p><span class="fecha">Plazas:</span>${cards.plazas}</p>
-                <p><span class="fecha">Modalidad:</span>${cards.modalidad}</p>
+                <p><span class="datocard">Lugar:</span>${cards.lugar}</p>
+                <p><span class="datocard">Plazas:</span>${cards.plazas}</p>
+                <p><span class="datocard">Modalidad:</span>${cards.modalidad}</p>
             </div>
             <div class="columna-horizontal">
-                <p><span class="fecha">Duración:</span>${cards.duración}</p>
-                <p><span class="fecha">Requisitos:</span></p>
+                <p><span class="datocard">Duración:</span>${cards.duración}</p>
+                <p><span class="datocard">Requisitos:</span></p>
                 <p>${cards.requisitos}</p>
             </div>
             <div class="columna-horizontal">
-                <p><span class="fecha">Descripción:</span></p>
+                <p><span class="datocard">Descripción:</span></p>
                 <p>${cards.descripción}</p>
             </div>
         </div>

@@ -56,20 +56,6 @@ main.innerHTML = `
       </div></div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <div class="panelcontent">
   <div class="panelcontent-left">
   <h3>¿Qué es el Programa Por Talento Digital?</h3>
@@ -79,16 +65,10 @@ main.innerHTML = `
   <a href="/becas"> No pierdas la oportunidad!</a></p></div>
   </div>
   </div>
-  
-
-
-
-
 
   <div class="cursos">
 <h2>Cursos de formación</h2>
 </div>
-
 
   <div class="tarjeta-container">
   <div class="tarjeta">
@@ -100,72 +80,75 @@ main.innerHTML = `
       <button>Inscríbete</button>
   </div>
   <div class="columna-horizontal">
-      <p><span class="fecha">Lugar:</span>Zona Embajadores (Madrid)</p>
-      <p><span class="fecha">Plazas:</span></p>
-      <p><span class="fecha">Modalidad:</span>Presencial</p>
+      <p><span class="datocard">Lugar:</span>Zona Embajadores (Madrid)</p>
+      <p><span class="datocard">Plazas:</span></p>
+      <p><span class="datocard">Modalidad:</span>Presencial</p>
   </div>
   <div class="columna-horizontal">
-      <p><span class="fecha">Duración:</span></p>
-      <p><span class="fecha">Requisitos:</span></p>
+      <p><span class="datocard">Duración:</span></p>
+      <p><span class="datocard">Requisitos:</span></p>
       <p>Sujeto a configuración de grupo completo.</p>
   </div>
   <div class="columna-horizontal">
-      <p><span class="fecha">Descripción:</span></p>
+      <p><span class="datocard">Descripción:</span></p>
       <p>El itinerario formativo Prepárate para el mundo...</p>
   </div>
 </div>
   
-        <div class="tarjeta">
-        <div class="columna-vertical">
-            <p>Inscripción hasta el XX de XX</p>
-        </div>
-        <div class="columna-horizontal">
-            <h3>Curso de desarrollo web 1</h3>
-            <button>Inscríbete</button>
-        </div>
-        <div class="columna-horizontal">
-            <p>Lugar: Ciudad A</p>
-            <p>Plazas: 20</p>
-            <p>Modalidad: Presencial</p>
-        </div>
-        <div class="columna-horizontal">
-            <p>Duración: 40 horas</p>
-            <p>Requisitos: Ninguno</p>
-            <p>Texto: Lorem ipsum</p>
-        </div>
-        <div class="columna-horizontal">
-            <p>Descripción: Curso introductorio</p>
-            <p>Requisitos: Básicos de programación</p>
-        </div>
-    </div>
+<div class="tarjeta">
+<div class="columna-vertical">
+    <p>Inscripción hasta el <span class="fecha">31 Dic 2023</span></p>
+</div>
+<div class="columna-horizontal">
+    <h3 class="nombrecurso">Prepárate para el mundo digital</h3>
+    <button>Inscríbete</button>
+</div>
+<div class="columna-horizontal">
+    <p><span class="datocard">Lugar:</span>Zona Embajadores (Madrid)</p>
+    <p><span class="datocard">Plazas:</span></p>
+    <p><span class="datocard">Modalidad:</span>Presencial</p>
+</div>
+<div class="columna-horizontal">
+    <p><span class="datocard">Duración:</span></p>
+    <p><span class="datocard">Requisitos:</span></p>
+    <p>Sujeto a configuración de grupo completo.</p>
+</div>
+<div class="columna-horizontal">
+    <p><span class="datocard">Descripción:</span></p>
+    <p>El itinerario formativo Prepárate para el mundo...</p>
+</div>
+</div>
   
-    <div class="tarjeta">
-    <div class="columna-vertical">
-        <p>Inscripción hasta el XX de XX</p>
-    </div>
-    <div class="columna-horizontal">
-        <h3>Curso de desarrollo web 1</h3>
-        <button>Inscríbete</button>
-    </div>
-    <div class="columna-horizontal">
-        <p>Lugar: Ciudad A</p>
-        <p>Plazas: 20</p>
-        <p>Modalidad: Presencial</p>
-    </div>
-    <div class="columna-horizontal">
-        <p>Duración: 40 horas</p>
-        <p>Requisitos: Ninguno</p>
-        <p>Texto: Lorem ipsum</p>
-    </div>
-    <div class="columna-horizontal">
-        <p>Descripción: Curso introductorio</p>
-        <p>Requisitos: Básicos de programación</p>
-    </div>
+<div class="tarjeta">
+<div class="columna-vertical">
+    <p>Inscripción hasta el <span class="fecha">31 Dic 2023</span></p>
+</div>
+<div class="columna-horizontal">
+    <h3 class="nombrecurso">Prepárate para el mundo digital</h3>
+    <button>Inscríbete</button>
+</div>
+<div class="columna-horizontal">
+    <p><span class="datocard">Lugar:</span>Zona Embajadores (Madrid)</p>
+    <p><span class="datocard">Plazas:</span></p>
+    <p><span class="datocard">Modalidad:</span>Presencial</p>
+</div>
+<div class="columna-horizontal">
+    <p><span class="datocard">Duración:</span></p>
+    <p><span class="datocard">Requisitos:</span></p>
+    <p>Sujeto a configuración de grupo completo.</p>
+</div>
+<div class="columna-horizontal">
+    <p><span class="datocard">Descripción:</span></p>
+    <p>El itinerario formativo Prepárate para el mundo...</p>
 </div>
 </div>
 
 <div class="ircursosarrow">
 <h2><a href="/cursos" class="flecha-derecha">Ir a Cursos de formación</a><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931804/Xtalentodigital/ico-flecha_l6bohv.png" alt="flecha derecha" /></h2>
+</div>
+</div>
+<div class="cursos">
+<h2>Consejo Consultivo</h2>
 </div>
 
 

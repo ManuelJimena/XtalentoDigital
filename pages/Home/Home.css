@@ -158,30 +158,6 @@ width: auto;
  margin-left: 1.5%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1200px) {
     h2 {
 		font-size: 1.4rem;
@@ -204,7 +180,7 @@ width: auto;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      background-color: var(--main-color);
+      background: var(--main-color);
       padding: 0;
     }
 }
@@ -233,8 +209,6 @@ width: auto;
   .flecha-derecha {
     margin-left: 0;
   }
-}
-
 }
 
 @media (max-width: 564px) {

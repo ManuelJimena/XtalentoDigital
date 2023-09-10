@@ -10,7 +10,7 @@
   color: var(--text-color);
   padding: 1%;
   font-size: 60px;
-  border-bottom: 4px solid var(--main-color);
+  border-bottom: 8px solid var(--main-color);
   justify-content: center;
 }
 
@@ -72,7 +72,7 @@ border: 1px solid var(--white-color);
   cursor: pointer;
   display: flex;
   justify-content: center;
-  margin: 0 100px;
+  margin: 0 80px;
 }
 
 .dark-mode .columna-horizontal button {
@@ -86,7 +86,13 @@ border: 1px solid var(--white-color);
 
 .fecha {
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(111, 111, 111);
+  font-family: Neuton, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+}
+
+.datocard {
+  font-weight: bold;
 }
 
 @media (max-width: 1200px) {
@@ -99,4 +105,26 @@ border: 1px solid var(--white-color);
   .tarjeta {
       width: 100%;
   }
+  .cursos h2 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 564px) {
+  .cursos h2 {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cursos h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 445px) {
+  .cursos h2 {
+    font-size: 30px;
+  }
+  
 }
