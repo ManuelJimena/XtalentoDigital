@@ -91,29 +91,29 @@ main.innerHTML = `
 
 
   <div class="tarjeta-container">
-        <div class="tarjeta">
-            <div class="columna-vertical">
-                <p>Inscripción hasta el <span class="sptj">31 Dic 2023</span></p>
-            </div>
-            <div class="columna-horizontal">
-                <h3>Prepárate para el mundo digital</h3>
-                <button>Inscríbete</button>
-            </div>
-            <div class="columna-horizontal">
-                <p>Lugar: Zona Embajadores (Madrid)</p>
-                <p>Plazas:</p>
-                <p>Modalidad: Presencial</p>
-            </div>
-            <div class="columna-horizontal">
-                <p>Duración:</p>
-                <p>Requisitos:</p>
-                <p>Lorem ipsum</p>
-            </div>
-            <div class="columna-horizontal">
-                <p>Descripción:</p>
-                <p>Lorem ipsum</p>
-            </div>
-        </div>
+  <div class="tarjeta">
+  <div class="columna-vertical">
+      <p>Inscripción hasta el <span class="fecha">31 Dic 2023</span></p>
+  </div>
+  <div class="columna-horizontal">
+      <h3 class="nombrecurso">Prepárate para el mundo digital</h3>
+      <button>Inscríbete</button>
+  </div>
+  <div class="columna-horizontal">
+      <p><span class="fecha">Lugar:</span>Zona Embajadores (Madrid)</p>
+      <p><span class="fecha">Plazas:</span></p>
+      <p><span class="fecha">Modalidad:</span>Presencial</p>
+  </div>
+  <div class="columna-horizontal">
+      <p><span class="fecha">Duración:</span></p>
+      <p><span class="fecha">Requisitos:</span></p>
+      <p>Sujeto a configuración de grupo completo.</p>
+  </div>
+  <div class="columna-horizontal">
+      <p><span class="fecha">Descripción:</span></p>
+      <p>El itinerario formativo Prepárate para el mundo...</p>
+  </div>
+</div>
   
         <div class="tarjeta">
         <div class="columna-vertical">

@@ -1,6 +1,5 @@
 import "./CursosCard.css";
 export const CursosCard = (cards) => `
-<div class="tarjeta-container">
         <div class="tarjeta">
             <div class="columna-vertical">
                 <p>Inscripción hasta el <span class="fecha">${cards.fecha}</span></p>
