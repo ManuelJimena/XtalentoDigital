@@ -33,7 +33,7 @@ export const Header = () => `
           href="https://es.linkedin.com/company/fundacion-once-inserta"
           target="_blank" aria-label="acceso a linkedin"
           ><i class="fa-brands fa-linkedin-in"></i></a></li>
-        
+          </ul>
         </div> 
         <div class="logoonce"><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694195097/logo-gso2022_iyfxv0_hj9snk.webp" alt="Logo once" /></a></div>
 </div>     
