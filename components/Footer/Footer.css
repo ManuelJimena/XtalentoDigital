@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 10px 15px;
+    padding: 1.5% 8%;
   }
 
   .infoxtalento {
@@ -18,13 +18,72 @@
     margin-top: 1.5%;
   }
 
-  .generaciond {
+  .socialfooter ul {
+    margin-bottom: 2%;
+}
+
+  .socialfooter ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dedoclick {
+  width: auto;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.socialfooter a {
+    position: relative;
+    font-size: 2rem;
+    color: var(--text-color);
+    margin: 15px;
+    padding: 5px;
+}
+
+.socialfooter a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    background-color: var(--white-color);
+    box-shadow: -1px -1px 0 var(--main-color),
+    1px -1px 0 var(--main-color),
+    -1px 1px 0 var(--main-color),
+    1px 1px 0 var(--main-color);
+    transition: width 0.3s ease-in-out;
+}
+
+.socialfooter a:hover {
+color: var(--main-color);
+}
+
+.gsonce {
+  width: 280px;
+  height: auto;
+}
+
+  .dgeneration {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1%;
+  }
+
+  .dgeneration img{
     width: 280px;
     height: auto;
   }
+
   .address p {
     padding: 5px 0;
-    text-align: center;
+    font-size: 12.8px;
   }
   .moreinfo ul li {
     padding: 5px 0;
@@ -39,12 +98,7 @@
   .moreinfo a:hover {
     text-decoration: underline;
   }
-  .social-media {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
+
   @media screen and (max-width: 860px) {
     .footer {
       flex-direction: column;
