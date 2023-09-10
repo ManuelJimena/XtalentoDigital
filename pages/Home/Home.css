@@ -149,23 +149,16 @@ width: auto;
 }
 
 .flecha-derecha {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
   text-decoration: none;
   color: var(--main-color);
-  margin-right: 5%;
+  margin-left: 60%;
 }
 
-.flecha-derecha img{
-  position: absolute;
-  top: 50%;
-  right: 0.1;
-  transform: translateY(-50%);
-  color: var(--main-color);
-  margin-left: 5%;
+.ircursosarrow img{
+ margin-left: 1.5%;
 }
+
+
 
 
 
@@ -228,12 +221,19 @@ width: auto;
     .panelcontent p {
       font-size: 14px;
     }
+    .flecha-derecha {
+      margin-left: 55%;
+    }
 }
 
 @media (max-width: 629px) {
   #next {
     right: 60%;
   }
+  .flecha-derecha {
+    margin-left: 0;
+  }
+}
 
 }
 

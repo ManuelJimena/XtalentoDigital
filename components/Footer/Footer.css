@@ -63,8 +63,25 @@
 color: var(--main-color);
 }
 
-.gsonce {
-  width: 280px;
+.mifooter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5%;
+  }
+
+  .mifooter a{
+    color: var(--text-color);
+    font-size: 25px;
+    margin-left: 5px;
+    }
+
+    .gsonce {
+     display: flex;
+     justify-content: center;
+    }
+
+.gsonce img{
+  width: 250px;
   height: auto;
 }
 
@@ -84,6 +101,11 @@ color: var(--main-color);
   .address p {
     padding: 5px 0;
     font-size: 12.8px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    
   }
   .moreinfo ul li {
     padding: 5px 0;
@@ -98,6 +120,10 @@ color: var(--main-color);
   .moreinfo a:hover {
     text-decoration: underline;
   }
+
+  .correo-enlace {
+    color: var(--text-color);
+}
 
   @media screen and (max-width: 860px) {
     .footer {

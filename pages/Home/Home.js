@@ -165,7 +165,7 @@ main.innerHTML = `
 </div>
 
 <div class="ircursosarrow">
-<h2><a href="/cursos" class="flecha-derecha">Ir a Cursos de formación<img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931804/Xtalentodigital/ico-flecha_l6bohv.png" alt="flecha derecha" /></a></h2>
+<h2><a href="/cursos" class="flecha-derecha">Ir a Cursos de formación</a><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931804/Xtalentodigital/ico-flecha_l6bohv.png" alt="flecha derecha" /></h2>
 </div>
 
 

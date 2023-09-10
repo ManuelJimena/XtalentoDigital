@@ -7,7 +7,7 @@ export const Footer = () => `
       <p>28012 Madrid</p>
       <p>Tlf Centralita: 91 506 88 88</p>
       <p>Tlf DAE: 91 506 89 18 / 19</p>
-      <p>Email: cursos.portalentodigital@fundaciononce.es</p>
+      <p>Email:<a href="cursos.portalentodigital@fundaciononce.es" class="correo-enlace"> cursos.portalentodigital@fundaciononce.es</a></p>
     </div>
     <div class="moreinfo">
     <ul>
@@ -18,7 +18,9 @@ export const Footer = () => `
     <li><a href="https://portalentodigital.fundaciononce.es/politica-de-cookies" target="_blank">Politica de cookies</a></li>
     </ul>
     </div>
-    <img class="gsonce" src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694014784/Xtalentodigital/logo-gso2022_iyfxv0.png" alt="logo grupo social once">
+    <div class="gsonce">
+    <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694014784/Xtalentodigital/logo-gso2022_iyfxv0.png" alt="logo grupo social once">
+    </div>
     </container>
     <div class="dgeneration"><a href="https://generaciond.gob.es/" target="_blank"><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931999/Xtalentodigital/generaciond_a3zjwi.png" alt="logo generacion D"></a>
     </div>
@@ -51,4 +53,10 @@ export const Footer = () => `
           ><i class="fa-brands fa-linkedin-in"></i></a></li>
           </ul>
 </div>     
+
+<div class="mifooter"> 
+        <p>©2023 Powered by ManuelJimena |<a href="https://github.com/ManuelJimena"
+        target="_blank" aria-label="acceso a github"
+      ><i class="fa-brands fa-github"></i></a>
+        </div>
   `;
