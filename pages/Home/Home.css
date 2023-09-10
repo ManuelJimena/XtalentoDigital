@@ -186,18 +186,6 @@ width: auto;
   align-items: center;
 }
 
-.carousel h2{
-  font-size: 45px;
-  line-height: 38px;
-  padding-bottom: 50px;
-  opacity: .9;
-  text-transform: uppercase;
-  font-weight: 600;
-  text-align: center;
-  color: var(--white-color);  
-  width: 100%;
-}
-
 .carrusel-list {
   position: relative;
   display: flex;
@@ -236,6 +224,7 @@ width: auto;
   line-height: 23px;
   color: var(--white-color);
   padding: 15px;
+
 }
 
 .carrusel a img{

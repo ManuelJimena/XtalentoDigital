@@ -153,7 +153,7 @@ main.innerHTML = `
 
 <section class="carousel">
 
-        <h2>Carousel</h2>
+        
 
         <div class="carrusel-list" id="carrusel-list">
 
@@ -177,7 +177,7 @@ main.innerHTML = `
                         <a href="https://www.accenture.com/es-es" target="_blank">
                             <h4>Accenture</h4>
                             <picture>
-                                <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368751/Xtalentodigital/accenture_twliq4.webp" alt="logo accenture">
+                                <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375976/Xtalentodigital/accenture_jiqrid.webp" alt="logo accenture">
                             </picture>
                         </a>
 
@@ -192,7 +192,7 @@ main.innerHTML = `
                     <a href="https://www.samsung.com/es" target="_blank">
                         <h4>Samsung</h4>
                         <picture>
-                            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368755/Xtalentodigital/samsung_vhj6fl.webp" alt="logo samsung">
+                            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375976/Xtalentodigital/samsung_ms5y9t.webp" alt="logo samsung">
                         </picture>
                     </a>
 
@@ -207,7 +207,7 @@ main.innerHTML = `
                 <a href="https://www.ilunion.com/es" target="_blank">
                     <h4>Ilunion</h4>
                     <picture>
-                        <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368755/Xtalentodigital/ilunion_wls13h.webp" alt="logo ilunion">
+                        <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375976/Xtalentodigital/ilunion_bzceb6.webp" alt="logo ilunion">
                     </picture>
                 </a>
 
@@ -222,7 +222,7 @@ main.innerHTML = `
             <a href="https://www.elcorteingles.es/" target="_blank">
                 <h4>El Corte Inglés</h4>
                 <picture>
-                    <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368754/Xtalentodigital/elci_uqlzw9.webp" alt="logo el corte inglés">
+                    <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375976/Xtalentodigital/elci_afv8tk.webp" alt="logo el corte inglés">
                 </picture>
             </a>
 
@@ -237,7 +237,7 @@ main.innerHTML = `
         <a href="https://www2.deloitte.com/es/es.html" target="_blank">
             <h4>Deloitte</h4>
             <picture>
-                <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368754/Xtalentodigital/deloitte_wkvd0i.webp" alt="logo deloitte">
+                <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375976/Xtalentodigital/deloitte_mrsvie.webp" alt="logo deloitte">
             </picture>
         </a>
 
@@ -249,10 +249,10 @@ main.innerHTML = `
 
 <div>
 
-    <a href="https://www.correos.es" target="_blank">
+    <a href="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368753/Xtalentodigital/correos_sxtfv4.webp" target="_blank">
         <h4>Correos</h4>
         <picture>
-            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368753/Xtalentodigital/correos_sxtfv4.webp" alt="logo correos">
+            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375978/Xtalentodigital/correos_kysedb.webp" alt="logo correos">
         </picture>
     </a>
 
@@ -267,7 +267,7 @@ main.innerHTML = `
     <a href="https://www.carrefour.es/" target="_blank">
         <h4>Carrefour</h4>
         <picture>
-            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368753/Xtalentodigital/carrefour_lohrpw.webp" alt="logo carrefour">
+            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375978/Xtalentodigital/carrefour_carhoq.webp" alt="logo carrefour">
         </picture>
     </a>
 
@@ -282,7 +282,7 @@ main.innerHTML = `
     <a href="https://www.bbva.es/personas.html" target="_blank">
         <h4>BBVA</h4>
         <picture>
-            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368752/Xtalentodigital/bbva_wr8xeq.webp" alt="logo bbva">
+            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375978/Xtalentodigital/bbva_qaad2c.webp" alt="logo bbva">
         </picture>
     </a>
 
@@ -297,7 +297,7 @@ main.innerHTML = `
     <a href="https://aws.amazon.com/es/" target="_blank">
         <h4>Amazon Web Services</h4>
         <picture>
-            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368752/Xtalentodigital/aws_y3t2b0.webp" alt="logo aws">
+            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375977/Xtalentodigital/aws_gzkl7r.webp" alt="logo aws">
         </picture>
     </a>
 
@@ -312,7 +312,7 @@ main.innerHTML = `
     <a href="https://ametic.es/" target="_blank">
         <h4>Ametic</h4>
         <picture>
-            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368751/Xtalentodigital/ametic_najmvv.webp" alt="logo ametic">
+            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375977/Xtalentodigital/ametic_ilklbs.webp" alt="logo ametic">
         </picture>
     </a>
 
@@ -419,7 +419,47 @@ main.innerHTML = `
           activeSlide.classList.add("active");
           activeSlide.style.display = "block";
         }
+
+
+
       });
+
+      function App() {
+        // Constructor de App
+      }
       
+      App.prototype.processingButton = function(event) {
+        const btn = event.currentTarget;
+        const carruselList = event.currentTarget.parentNode;
+        const track = event.currentTarget.parentNode.querySelector('#track');
+        const carrusel = track.querySelectorAll('.carrusel');
+      
+        const carruselWidth = carrusel[0].offsetWidth;
+        let leftPosition; // Declarar leftPosition aquí
+      
+        const trackWidth = track.offsetWidth;
+        const listWidth = carruselList.offsetWidth;
+      
+        track.style.left == "" ? leftPosition = track.style.left = 0 : leftPosition = parseFloat(track.style.left.slice(0, -2) * -1);
+        btn.dataset.button == "button-prev" ? prevAction(leftPosition, carruselWidth, track) : nextAction(leftPosition, trackWidth, listWidth, carruselWidth, track);
+      }
+      
+      let prevAction = (leftPosition, carruselWidth, track) => {
+        if (leftPosition > 0) {
+          track.style.left = `${-1 * (leftPosition - carruselWidth)}px`;
+        }
+      }
+      
+      let nextAction = (leftPosition, trackWidth, listWidth, carruselWidth, track) => {
+        if (leftPosition < (trackWidth - listWidth)) {
+          track.style.left = `${-1 * (leftPosition + carruselWidth)}px`;
+        }
+      }
+      
+      // Instanciar App cuando se carga la página
+      window.onload = function(event) {
+        var app = new App();
+        window.app = app;
+      }
 };
 
