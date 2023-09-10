@@ -59,7 +59,7 @@ main.innerHTML = `
   <div class="panelcontent">
   <div class="panelcontent-left">
   <h3>¿Qué es el Programa Por Talento Digital?</h3>
-  <p><strong>Por Talento Digital es un programa de formación permanente en competencias digitales y profesiones tecnológicas de la <a href="https://www.fundaciononce.es" target="_blank" title="Abre en ventana nueva web Fundación ONCE">Fundación ONCE</a> </strong> orientado a la adquisición de conocimientos y cualificación tecnológica y digital de las personas con discapacidad para favorecer así su inclusión laboral en profesiones con alta demanda en el mercado de trabajo, multiplicando de esta forma sus perspectivas profesionales.</p>
+  <p><strong>Por Talento Digital es un programa de formación permanente en competencias digitales y profesiones tecnológicas de la <a href="https://www.fundaciononce.es" target="_blank">Fundación ONCE</a> </strong> orientado a la adquisición de conocimientos y cualificación tecnológica y digital de las personas con discapacidad para favorecer así su inclusión laboral en profesiones con alta demanda en el mercado de trabajo, multiplicando de esta forma sus perspectivas profesionales.</p>
   </div>
   <div class="panelcontent-right"><img alt="imagen de un pc" src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931907/Xtalentodigital/banner_home_cujp1e.png" /><div class="convocatoria"><h3>II Convocatoria de becas</h3><p>¡Ya se ha abierto la II Convocatoria de becas de formación individual.
   <a href="/becas"> No pierdas la oportunidad!</a></p></div>
@@ -150,6 +150,195 @@ main.innerHTML = `
 <div class="cursos">
 <h2>Consejo Consultivo</h2>
 </div>
+
+<section class="carousel">
+
+        <h2>Carousel</h2>
+
+        <div class="carrusel-list" id="carrusel-list">
+
+            <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
+                onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+                    class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368662/Xtalentodigital/left_r6yz6p.svg"
+                    viewBox="0 0 320 512">
+                    <path fill="currentColor"
+                        d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+                    </path>
+                </svg>
+            </button>
+
+            <div class="carrusel-track" id="track">
+
+                <div class="carrusel">
+
+                    <div>
+
+                        <a href="https://www.accenture.com/es-es" target="_blank">
+                            <h4>Accenture</h4>
+                            <picture>
+                                <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368751/Xtalentodigital/accenture_twliq4.webp" alt="logo accenture">
+                            </picture>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="carrusel">
+
+                <div>
+
+                    <a href="https://www.samsung.com/es" target="_blank">
+                        <h4>Samsung</h4>
+                        <picture>
+                            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368755/Xtalentodigital/samsung_vhj6fl.webp" alt="logo samsung">
+                        </picture>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="carrusel">
+
+            <div>
+
+                <a href="https://www.ilunion.com/es" target="_blank">
+                    <h4>Ilunion</h4>
+                    <picture>
+                        <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368755/Xtalentodigital/ilunion_wls13h.webp" alt="logo ilunion">
+                    </picture>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="carrusel">
+
+        <div>
+
+            <a href="https://www.elcorteingles.es/" target="_blank">
+                <h4>El Corte Inglés</h4>
+                <picture>
+                    <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368754/Xtalentodigital/elci_uqlzw9.webp" alt="logo el corte inglés">
+                </picture>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="carrusel">
+
+    <div>
+
+        <a href="https://www2.deloitte.com/es/es.html" target="_blank">
+            <h4>Deloitte</h4>
+            <picture>
+                <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368754/Xtalentodigital/deloitte_wkvd0i.webp" alt="logo deloitte">
+            </picture>
+        </a>
+
+    </div>
+
+</div>
+
+<div class="carrusel">
+
+<div>
+
+    <a href="https://www.correos.es" target="_blank">
+        <h4>Correos</h4>
+        <picture>
+            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368753/Xtalentodigital/correos_sxtfv4.webp" alt="logo correos">
+        </picture>
+    </a>
+
+</div>
+
+</div>
+
+<div class="carrusel">
+
+<div>
+
+    <a href="https://www.carrefour.es/" target="_blank">
+        <h4>Carrefour</h4>
+        <picture>
+            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368753/Xtalentodigital/carrefour_lohrpw.webp" alt="logo carrefour">
+        </picture>
+    </a>
+
+</div>
+
+</div>
+
+<div class="carrusel">
+
+<div>
+
+    <a href="https://www.bbva.es/personas.html" target="_blank">
+        <h4>BBVA</h4>
+        <picture>
+            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368752/Xtalentodigital/bbva_wr8xeq.webp" alt="logo bbva">
+        </picture>
+    </a>
+
+</div>
+
+</div>
+
+<div class="carrusel">
+
+<div>
+
+    <a href="https://aws.amazon.com/es/" target="_blank">
+        <h4>Amazon Web Services</h4>
+        <picture>
+            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368752/Xtalentodigital/aws_y3t2b0.webp" alt="logo aws">
+        </picture>
+    </a>
+
+</div>
+
+</div>
+
+<div class="carrusel">
+
+<div>
+
+    <a href="https://ametic.es/" target="_blank">
+        <h4>Ametic</h4>
+        <picture>
+            <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368751/Xtalentodigital/ametic_najmvv.webp" alt="logo ametic">
+        </picture>
+    </a>
+
+</div>
+
+</div>
+
+                
+
+            </div>
+
+            <button class="carrusel-arrow carrusel-next" id="button-next" data-button="button-next"
+                onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                    class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368662/Xtalentodigital/right_xkpeuo.svg"
+                    viewBox="0 0 320 512">
+                    <path fill="currentColor"
+                        d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                    </path>
+                </svg>
+            </button>
+
+
+        </div>
+
+    </section>
 
 
 
