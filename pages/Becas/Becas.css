@@ -1,0 +1,10 @@
+.treasure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .treasure-animation{
+    margin-bottom: -3rem;
+  }
