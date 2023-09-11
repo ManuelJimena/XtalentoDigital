@@ -80,71 +80,71 @@ main.innerHTML = `
       <button>Inscríbete</button>
   </div>
   <div class="columna-horizontal">
-      <p><span class="datocard">Lugar:</span>Zona Embajadores (Madrid)</p>
-      <p><span class="datocard">Plazas:</span></p>
-      <p><span class="datocard">Modalidad:</span>Presencial</p>
+      <p><span class="datocard">Lugar: </span>Zona Embajadores (Madrid)</p>
+      <p><span class="datocard">Plazas: </span></p>
+      <p><span class="datocard">Modalidad: </span>Presencial</p>
   </div>
   <div class="columna-horizontal">
-      <p><span class="datocard">Duración:</span></p>
-      <p><span class="datocard">Requisitos:</span></p>
+      <p><span class="datocard">Duración: </span></p>
+      <p><span class="datocard">Requisitos: </span></p>
       <p>Sujeto a configuración de grupo completo.</p>
   </div>
   <div class="columna-horizontal">
-      <p><span class="datocard">Descripción:</span></p>
-      <p>El itinerario formativo Prepárate para el mundo...</p>
+      <p><span class="datocard">Descripción: </span></p>
+      <p>Itinerario formativo para el mundo digital.</p>
   </div>
 </div>
   
 <div class="tarjeta">
 <div class="columna-vertical">
-    <p>Inscripción hasta el <span class="fecha">31 Dic 2023</span></p>
+    <p>Inscripción hasta el <span class="fecha">15 Sep 2023</span></p>
 </div>
 <div class="columna-horizontal">
-    <h3 class="nombrecurso">Prepárate para el mundo digital</h3>
+    <h3 class="nombrecurso">English for Digital Workers III Edición</h3>
     <button>Inscríbete</button>
 </div>
 <div class="columna-horizontal">
-    <p><span class="datocard">Lugar:</span>Zona Embajadores (Madrid)</p>
-    <p><span class="datocard">Plazas:</span></p>
-    <p><span class="datocard">Modalidad:</span>Presencial</p>
+    <p><span class="datocard">Lugar: </span>Zona Embajadores (Madrid)</p>
+    <p><span class="datocard">Plazas: </span></p>
+    <p><span class="datocard">Modalidad: </span>Presencial</p>
 </div>
 <div class="columna-horizontal">
-    <p><span class="datocard">Duración:</span></p>
-    <p><span class="datocard">Requisitos:</span></p>
-    <p>Sujeto a configuración de grupo completo.</p>
+    <p><span class="datocard">Duración: </span>36h</p>
+    <p><span class="datocard">Requisitos: </span></p>
+    <p>Configuración de grupo tras prueba de nivel.</p>
 </div>
 <div class="columna-horizontal">
     <p><span class="datocard">Descripción:</span></p>
-    <p>El itinerario formativo Prepárate para el mundo...</p>
+    <p>Intinerario formativo de Inglés.</p>
 </div>
 </div>
   
 <div class="tarjeta">
 <div class="columna-vertical">
-    <p>Inscripción hasta el <span class="fecha">31 Dic 2023</span></p>
+    <p>Inscripción hasta el <span class="fecha">09 Jun 2023</span></p>
 </div>
 <div class="columna-horizontal">
-    <h3 class="nombrecurso">Prepárate para el mundo digital</h3>
+    <h3 class="nombrecurso">Diseño gráfico (avanzado)</h3>
     <button>Inscríbete</button>
 </div>
 <div class="columna-horizontal">
-    <p><span class="datocard">Lugar:</span>Zona Embajadores (Madrid)</p>
-    <p><span class="datocard">Plazas:</span></p>
-    <p><span class="datocard">Modalidad:</span>Presencial</p>
+    <p><span class="datocard">Lugar: </span>Zona Embajadores (Madrid)</p>
+    <p><span class="datocard">Plazas: </span>15</p>
+    <p><span class="datocard">Modalidad: </span>A distancia</p>
 </div>
 <div class="columna-horizontal">
-    <p><span class="datocard">Duración:</span></p>
-    <p><span class="datocard">Requisitos:</span></p>
+    <p><span class="datocard">Duración: </span>500h</p>
+    <p><span class="datocard">Requisitos: </span></p>
     <p>Sujeto a configuración de grupo completo.</p>
 </div>
 <div class="columna-horizontal">
-    <p><span class="datocard">Descripción:</span></p>
-    <p>El itinerario formativo Prepárate para el mundo...</p>
+    <p><span class="datocard">Descripción: </span></p>
+    <p>Itinerario formativo de diseño gráfico.</p>
 </div>
 </div>
 
 <div class="irarrow">
-<h2><a href="/cursos" class="flecha-derecha">Ir a Cursos de formación</a><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931804/Xtalentodigital/ico-flecha_l6bohv.png" alt="flecha derecha" /></h2>
+<h2><a href="/not" class="flecha-derecha">Ir a Cursos de formación</a><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931804/Xtalentodigital/ico-flecha_l6bohv.png" alt="flecha derecha" /></h2>
 </div>
 </div>
 <div class="cursos">
