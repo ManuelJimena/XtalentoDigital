@@ -143,7 +143,7 @@ main.innerHTML = `
 </div>
 </div>
 
-<div class="ircursosarrow">
+<div class="irarrow">
 <h2><a href="/cursos" class="flecha-derecha">Ir a Cursos de formación</a><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931804/Xtalentodigital/ico-flecha_l6bohv.png" alt="flecha derecha" /></h2>
 </div>
 </div>
@@ -339,7 +339,9 @@ main.innerHTML = `
         </div>
 
     </section>
-
+    <div class="irarrow">
+    <h2><a href="/not" class="flecha-derecha">Ir a Colaboradores</a><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931804/Xtalentodigital/ico-flecha_l6bohv.png" alt="flecha derecha" /></h2>
+    </div>
 
 
 

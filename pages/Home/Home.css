@@ -143,7 +143,7 @@ width: auto;
   color: var(--white-color);
 }
 
-.ircursosarrow {
+.irarrow {
   position: relative;
   width: 100%;
 }
@@ -154,7 +154,7 @@ width: auto;
   margin-left: 60%;
 }
 
-.ircursosarrow img{
+.irarrow img{
  margin-left: 1.5%;
 }
 
@@ -338,7 +338,7 @@ width: auto;
 
 @media (max-width: 768px) {
   .carousel {
-    margin: 0px 60px;
+    margin: 0px 0px;
   }
   .carrusel {
     width: 275px;
@@ -346,6 +346,7 @@ width: auto;
   .carrusel a img {
     width: 250px;
   }
+
 }
 
 @media (max-width: 629px) {
