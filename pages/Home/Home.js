@@ -124,7 +124,7 @@ main.innerHTML = `
     <p>Inscripción hasta el <span class="fecha">09 Jun 2023</span></p>
 </div>
 <div class="columna-horizontal">
-    <h3 class="nombrecurso">Diseño gráfico (avanzado)</h3>
+    <h3 class="nombrecurso">Diseño gráfico (nivel avanzado)</h3>
     <button>Inscríbete</button>
 </div>
 <div class="columna-horizontal">
@@ -152,11 +152,8 @@ main.innerHTML = `
 </div>
 
 <section class="carousel">
-
         
-
         <div class="carrusel-list" id="carrusel-list">
-
             <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
                 onclick="app.processingButton(event)">
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
@@ -167,163 +164,109 @@ main.innerHTML = `
                     </path>
                 </svg>
             </button>
-
             <div class="carrusel-track" id="track">
-
                 <div class="carrusel">
-
                     <div>
-
                         <a href="https://www.accenture.com/es-es" target="_blank">
                             <h4>Accenture</h4>
                             <picture>
                                 <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375976/Xtalentodigital/accenture_jiqrid.webp" alt="logo accenture">
                             </picture>
                         </a>
-
                     </div>
-
                 </div>
-
                 <div class="carrusel">
-
                 <div>
-
                     <a href="https://www.samsung.com/es" target="_blank">
                         <h4>Samsung</h4>
                         <picture>
                             <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375976/Xtalentodigital/samsung_ms5y9t.webp" alt="logo samsung">
                         </picture>
                     </a>
-
                 </div>
-
             </div>
-
             <div class="carrusel">
-
             <div>
-
                 <a href="https://www.ilunion.com/es" target="_blank">
                     <h4>Ilunion</h4>
                     <picture>
                         <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375976/Xtalentodigital/ilunion_bzceb6.webp" alt="logo ilunion">
                     </picture>
                 </a>
-
             </div>
-
         </div>
-
         <div class="carrusel">
-
         <div>
-
             <a href="https://www.elcorteingles.es/" target="_blank">
                 <h4>El Corte Inglés</h4>
                 <picture>
                     <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375976/Xtalentodigital/elci_afv8tk.webp" alt="logo el corte inglés">
                 </picture>
             </a>
-
         </div>
-
     </div>
-
     <div class="carrusel">
-
     <div>
-
         <a href="https://www2.deloitte.com/es/es.html" target="_blank">
             <h4>Deloitte</h4>
             <picture>
                 <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375976/Xtalentodigital/deloitte_mrsvie.webp" alt="logo deloitte">
             </picture>
         </a>
-
     </div>
-
 </div>
-
 <div class="carrusel">
-
 <div>
-
     <a href="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694368753/Xtalentodigital/correos_sxtfv4.webp" target="_blank">
         <h4>Correos</h4>
         <picture>
             <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375978/Xtalentodigital/correos_kysedb.webp" alt="logo correos">
         </picture>
     </a>
-
 </div>
-
 </div>
-
 <div class="carrusel">
-
 <div>
-
     <a href="https://www.carrefour.es/" target="_blank">
         <h4>Carrefour</h4>
         <picture>
             <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375978/Xtalentodigital/carrefour_carhoq.webp" alt="logo carrefour">
         </picture>
     </a>
-
 </div>
-
 </div>
-
 <div class="carrusel">
-
 <div>
-
     <a href="https://www.bbva.es/personas.html" target="_blank">
         <h4>BBVA</h4>
         <picture>
             <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375978/Xtalentodigital/bbva_qaad2c.webp" alt="logo bbva">
         </picture>
     </a>
-
 </div>
-
 </div>
-
 <div class="carrusel">
-
 <div>
-
     <a href="https://aws.amazon.com/es/" target="_blank">
         <h4>Amazon Web Services</h4>
         <picture>
             <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375977/Xtalentodigital/aws_gzkl7r.webp" alt="logo aws">
         </picture>
     </a>
-
 </div>
-
 </div>
-
 <div class="carrusel">
-
 <div>
-
     <a href="https://ametic.es/" target="_blank">
         <h4>Ametic</h4>
         <picture>
             <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694375977/Xtalentodigital/ametic_ilklbs.webp" alt="logo ametic">
         </picture>
     </a>
-
 </div>
-
 </div>
-
                 
-
             </div>
-
             <button class="carrusel-arrow carrusel-next" id="button-next" data-button="button-next"
                 onclick="app.processingButton(event)">
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
@@ -334,10 +277,7 @@ main.innerHTML = `
                     </path>
                 </svg>
             </button>
-
-            
         </div>
-
     </section>
     <div class="irarrow">
     <h2><a href="/not" class="flecha-derecha">Ir a Colaboradores</a><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931804/Xtalentodigital/ico-flecha_l6bohv.png" alt="flecha derecha" /></h2>

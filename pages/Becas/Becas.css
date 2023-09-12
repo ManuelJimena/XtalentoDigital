@@ -48,7 +48,7 @@
   }
   
   .beca-a a, .beca-b a{
-    color: black;
+    color: var(--text-color);
     margin: 5%;
     font-size: 20px;
     font-weight: bold;
