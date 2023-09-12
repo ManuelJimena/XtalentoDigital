@@ -66,7 +66,7 @@ main.innerHTML = `
   </div>
   </div>
 
-  <div class="cursos">
+  <div class="pagetitle">
 <h2>Cursos de formación</h2>
 </div>
 
@@ -147,7 +147,7 @@ main.innerHTML = `
 <h2><a href="/not" class="flecha-derecha">Ir a Cursos de formación</a><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931804/Xtalentodigital/ico-flecha_l6bohv.png" alt="flecha derecha" /></h2>
 </div>
 </div>
-<div class="cursos">
+<div class="pagetitle">
 <h2>Consejo Consultivo</h2>
 </div>
 
@@ -345,7 +345,41 @@ main.innerHTML = `
 
 
 
+    <section class="pagetitle">
+    <h2>Becas</h2>
+    </div>
+    </section>
 
+
+
+    <div class="irarrow">
+    <h2><a href="/not" class="flecha-derecha">Ir a Becas</a><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931804/Xtalentodigital/ico-flecha_l6bohv.png" alt="flecha derecha" /></h2>
+    </div>
+
+
+
+    <section class="pagetitle">
+    <h2>Alumni</h2>
+    </div>
+    </section>
+
+
+
+    <div class="irarrow">
+    <h2><a href="/not" class="flecha-derecha">Ir a Alumni</a><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931804/Xtalentodigital/ico-flecha_l6bohv.png" alt="flecha derecha" /></h2>
+    </div>
+
+
+    <section class="pagetitle">
+    <h2>Últimos post</h2>
+    </div>
+    </section>
+
+
+
+    <div class="irarrow">
+    <h2><a href="/not" class="flecha-derecha">Ir a Blog</a><img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1693931804/Xtalentodigital/ico-flecha_l6bohv.png" alt="flecha derecha" /></h2>
+    </div>
 
 
 
