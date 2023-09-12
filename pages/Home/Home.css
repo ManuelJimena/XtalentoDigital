@@ -173,9 +173,8 @@ width: auto;
   width: fit-content;
   height: 304px;
   padding: 20px 0px;
-  margin: 0px auto;
+  margin: 2px auto;
   max-width: 90vw;
-  overflow: hidden;
 }
 
 .carrusel-track {
@@ -201,9 +200,9 @@ width: auto;
   position: absolute;
   z-index: 1;
   font-size: 20px;
-  line-height: 21px;
+  line-height: 37px;
   color: var(--white-color);
-  padding: 12px;
+  padding: 6%;
 }
 
 .carrusel a img{

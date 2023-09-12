@@ -123,22 +123,40 @@ max-height: 10vh;
 
 /* MEDIA QUERY */
 
+@media (max-width: 1120px) {
+    .circles p {
+		padding-top: 40px;
+		margin-top: 5rem;
+	}
+
+	.circles .circle.big {
+		width: 350px;
+		height: 350px;
+	}
+
+	.circles .circle.med {
+		width: 145px;
+		height: 145px;
+
+	}
+}
+
 @media (max-width: 580px) {
-    #not-found .circles p {
-        font-size: 200px;
+    .circles p {
+        font-size: 100px;
     }
 
-    #not-found .circles p small{
+    .circles p small{
         font-size: 40px;
     }
 }
 
 @media (max-width: 450px) {
-    #not-found .circles p {
-        font-size: 150px;
+    .circles p {
+        font-size: 110px;
     }
 
-    #not-found .circles p small{
-        font-size: 35px;
+   .circles p small{
+        font-size: 30px;
     }
 }

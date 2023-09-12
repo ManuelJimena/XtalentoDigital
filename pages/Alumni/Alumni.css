@@ -49,12 +49,12 @@
   transform: scale(1.2); /* Aumenta la imagen en un 20% en hover */
 }
 
-.alumnicard h4, p, a{
+.alumnicard h5, p, a{
   margin: 4%;
 
 }
 
-.alumnicard h4 {
+.alumnicard h5 {
   font-size: 22px;
 
 }
