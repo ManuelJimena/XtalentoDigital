@@ -13,14 +13,22 @@
   }
 
   .alumniportalento {
-    display: flex;
+display: flex;
+flex-direction: column;
     
-  }
+}
 
+.alumnicards > div {
+    
+    border: 1px solid green;
+    margin-bottom: 20px;
+    width: 221px;
+    height: auto;
+}
 
-  .alumnicards {
-    flex-direction: column;
-    height: 500px;
-    width: 250px;
-    gap: 5%;
-  }
+/* Agrega una media query para ajustar el diseño en pantalla más pequeña */
+@media (max-width: 768px) {
+    .alumnicards > div {
+        flex-basis: calc(100% - 20px); /* Cambia a una columna completa en pantalla pequeña */
+    }
+}
