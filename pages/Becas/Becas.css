@@ -30,7 +30,7 @@
     justify-content: center;
     border: 1px solid var(--text-color);
     width: 500px;
-    height: auto;
+    min-height: auto;
     margin-bottom: 5%;
   }
   
