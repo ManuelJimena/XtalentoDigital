@@ -12,23 +12,56 @@
     margin: 2%;
   }
 
-  .alumniportalento {
-display: flex;
-flex-direction: column;
-    
+  .alumnicards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5%;
+    padding: 2%;
 }
 
-.alumnicards > div {
-    
-    border: 1px solid green;
+.alumnicard {
+    flex-basis: calc(25% - 20px);
     margin-bottom: 20px;
-    width: 221px;
-    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid var(--text-color);
+    border-radius: 5%;
+    overflow: hidden;
+    &:hover {
+      color: var(--white-color);
+      background-color: var(--main-color);
+    }
 }
 
-/* Agrega una media query para ajustar el diseño en pantalla más pequeña */
+.alumnicard img {
+  width: auto;
+  height: auto;
+  transition: transform 0.3s ease; 
+  
+  &:hover {
+    transform: scale(1.1);
+    border-radius: 5%;
+  }
+}
+
+.alumnicard img:hover {
+  transform: scale(1.2); /* Aumenta la imagen en un 20% en hover */
+}
+
+.alumnicard h4, p, a{
+  margin: 4%;
+
+}
+
+.alumnicard h4 {
+  font-size: 22px;
+
+}
+
+
 @media (max-width: 768px) {
-    .alumnicards > div {
-        flex-basis: calc(100% - 20px); /* Cambia a una columna completa en pantalla pequeña */
+    .alumnicard {
+        flex-basis: calc(50% - 20px);
     }
 }

@@ -335,7 +335,7 @@ main.innerHTML = `
                 </svg>
             </button>
 
-
+            
         </div>
 
     </section>
@@ -368,32 +368,32 @@ main.innerHTML = `
 
     <section class="alumniportalento">
     <div class="alumnicards">
+        <div class="alumnicard">
+        <h4>Edu Legido Llano</h4>
+        <a href="/not"><img src="https://portalentodigital.fundaciononce.es/sites/default/files/styles/medium/public/pictures/alumnos/edu.png" alt="alumno" /></a>
+            <p>La experiencia de ir a la Academia Digital fue el compañerismo y la amistad. Y vi...</p>
+        </div>
 
-    <div>
-    <h4>Edu Legido Llano</h4>
-    <img src="https://portalentodigital.fundaciononce.es/sites/default/files/styles/medium/public/pictures/alumnos/edu.png" alt="alumno" />
-    <p>La experiencia de ir a la Academia Digital fue el compañerismo y la amistad. Y vi...</p>
-    </div>
+        <div class="alumnicard">
+        <h4>Melanie Céspedes Guzmán</h4>
+        <a href="/not"><img src="https://portalentodigital.fundaciononce.es/sites/default/files/styles/medium/public/pictures/alumnos/melanie_2.png" alt="alumna" /></a>
+            <p>Para mí ha sido la emoción de aprender y evolucionar. De sentir que he tenido un...</p>
+        </div>
 
-    <div>
-    <h4>Melanie Céspedes Guzmán</h4>
-    <img src="https://portalentodigital.fundaciononce.es/sites/default/files/styles/medium/public/pictures/alumnos/melanie_2.png" alt="alumna" />
-    <p>Para mí ha sido la emoción de aprender y evolucionar. De sentir que he tenido un...</p>
-    </div>
+        <div class="alumnicard">
+        <h4>Moisés López Cháves</h4>
+        <a href="/not"><img src="https://portalentodigital.fundaciononce.es/sites/default/files/styles/medium/public/pictures/alumnos/moises_1.png" alt="alumno" /></a>
+            <p>Son muchos los obstáculos que hemos tenido que superar, pero una de las...</p>
+        </div>
 
-    <div>
-    <h4>Moisés López Cháves</h4>
-    <img src="https://portalentodigital.fundaciononce.es/sites/default/files/styles/medium/public/pictures/alumnos/moises_1.png" alt="alumno" />
-    <p>Son muchos los obstáculos que hemos tenido que superar, pero una de las...</p>
+        <div class="alumnicard">
+        <h4>Jordi Sánchez Peralta</h4>
+        <a href="/not"><img src="https://portalentodigital.fundaciononce.es/sites/default/files/styles/medium/public/pictures/alumnos/jordi_2.png" alt="alumno" /></a>
+            <p>Ya se me da bien editar vídeos y fotos y a entenderme con el equipo porque a veces...</p>
+        </div>
     </div>
-    
-    <div>
-    <h4>Jordi Sánchez Peralta</h4>
-    <img src="https://portalentodigital.fundaciononce.es/sites/default/files/styles/medium/public/pictures/alumnos/jordi_2.png" alt="alumno" />
-    <p>Ya se me da bien editar vídeos y fotos y a entenderme con el equipo porque a veces...</p>
-    </div>
-    </div>
-    </section>
+</section>
+
 
 
 

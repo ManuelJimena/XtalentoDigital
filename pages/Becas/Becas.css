@@ -29,21 +29,21 @@
     display: flex;
     justify-content: center;
     border: 1px solid var(--text-color);
-    width: 500px;
-    min-height: auto;
+    width: 530px;
+    height: auto;
     margin-bottom: 5%;
   }
   
   .beca-a img {
     background-color: #982536;
     height: auto;
-    width: 95px;
+    width: 190px;
     padding: 3%;
   }
   .beca-b img{
     background-color: #F4A460;
     height: auto;
-    width: 95px;
+    width: 145px;
     padding: 3%;
   }
   
