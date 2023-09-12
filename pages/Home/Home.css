@@ -159,26 +159,6 @@ width: auto;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .carousel {
   width: 100%;
   margin: 0px 0px;
@@ -268,6 +248,7 @@ width: auto;
 .carrusel-next {
   right: 0px;
 }
+
 
 @media (max-width: 1200px) {
     h2 {

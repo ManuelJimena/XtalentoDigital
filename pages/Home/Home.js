@@ -344,9 +344,17 @@ main.innerHTML = `
     </div>
 
 
+    <div class="pagetitle">
+<h2>Becas</h2>
+</div>
 
-    <section class="pagetitle">
-    <h2>Becas</h2>
+    <section class="becaportalento">
+    <div class="beca-a">
+    <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694535153/Xtalentodigital/beca_diploma-blanco_0_durwhs.png" alt="diploma" /><a href="/not">Convocatoria de becas de formación individual Por Talento Digital ></a>
+    </div>
+    <div class="beca-b">
+    <img src="https://res.cloudinary.com/dhjmt9vvq/image/upload/v1694535153/Xtalentodigital/beca_diploma_negro_0_dvmx59.png" alt="diploma" /><a href="/not">Becas para la asistencia a la formación ></a>
+    </div>
     </div>
     </section>
 
