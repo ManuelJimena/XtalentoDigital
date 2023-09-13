@@ -371,7 +371,7 @@ main.innerHTML = `
       document.addEventListener("DOMContentLoaded", function () {
         // Options
         const speed = 500; // Transition speed - fade
-        const autoswitch = true; // Auto slider options
+        const autoswitch = true; // Auto slider optionso
         const autoswitch_speed = 5000; // Auto slider speed
       
         // Add first initial active class

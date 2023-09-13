@@ -138,7 +138,7 @@ color: var(--main-color);
     font-size: 1.2rem;
     color: var(--main-color);
     font-weight: 500;
-    margin-right: 3.5rem;
+    margin-right: 4rem;
     font-family: Coustard, Helvetica, sans-serif;
 }
 
@@ -347,7 +347,7 @@ nav#navbar.navbar.activo {
   
   @media (max-width: 564px) {
     .banner a img {
-  width: 300px;
+  width: 290px;
   height: 80px;
     }
     .site-logo {
@@ -360,7 +360,7 @@ nav#navbar.navbar.activo {
   
   @media (max-width: 480px) {
     .banner a img {
-  width: 275px;
+  width: 265px;
   height: 70px;
     }
     .logoonce img {

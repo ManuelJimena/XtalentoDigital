@@ -5,11 +5,7 @@
     width:100%;
     height:300px;
     text-align:center;
-    margin-top: 2%;
-  }
-
-  .gear {
-    margin: 2%;
+    
   }
 
   .alumnicards {
@@ -49,7 +45,17 @@
   transform: scale(1.2); /* Aumenta la imagen en un 20% en hover */
 }
 
-.alumnicard h5, p, a{
+.alumnicard h5 {
+  margin: 4%;
+
+}
+
+.alumnicard p {
+  margin: 4%;
+
+}
+
+.alumnicard pa {
   margin: 4%;
 
 }
